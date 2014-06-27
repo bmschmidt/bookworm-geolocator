@@ -1,0 +1,4 @@
+import(dplyr,
+       geonames)
+
+export(geocode)

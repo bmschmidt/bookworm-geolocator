@@ -1,0 +1,8 @@
+Package: booklocation
+Title: Tools for geocoding library metadata for use with Bookworm
+Description: 
+Version: 1.0
+Author: Ben Schmidt
+Maintainer: Ben Schmidt <bmschmidt@gmail.com>
+License: MIT
+Depends: dplyr,geonames
