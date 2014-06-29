@@ -1,7 +1,7 @@
 bookworm-geolocator
 ===================
 
-This provides from geonames.org specifically adapted to the needs of library catalog metadata.
+This provides geolocation of placenames specifically adapted to the needs of library catalog metadata and other publishing-related metadata.
 
 It's built as a Bookworm plugin, so by default it gets the data about publication places from a local API call.
 
