@@ -16,10 +16,10 @@ cleanNames = function(counts) {
     #Drop concluding "etc"
     normed = gsub("(, )?[Ee]tc\\.?$","",normed,perl=T),
     # Only take the first element in "Boston and New York," for example, but keep the PA in "Philadelphia and Pittsburgh, PA"
-    normed = gsub(" (and|&) .*(, .*)?","\\2",normed,perl=T),
+    normed = gsub(" (ie|and|&|und|et) .*(, .*)?","\\2",normed,perl=T),
     #Sometimes they just end or begin with "and"
-    normed = gsub(" and$","",normed,perl=T),     
-    normed = gsub("^and ","",normed,perl=T),     
+    normed = gsub(" (&|and|und|et)$","",normed,perl=T),     
+    normed = gsub("^(and|&|et|und) ","",normed,perl=T),     
     #There are no other New Yorks, but there are lots of books published in "New York, London", which is not a place,
     #so we fix it. 
     #Note that this doesn't work for Boston, (Boston, England), or London (London, Ontario).
@@ -27,7 +27,9 @@ cleanNames = function(counts) {
     # That said: fuck Philadelphia, Mississippi.
     normed = gsub("Philadelphia, .*","Philadelphia",normed,perl=T),
     #If it ends in "USA," we don't need the country
-    normed = gsub("(.*, .*), USA","\\1",normed,perl=T),
+    normed = gsub("(.*, .*), (USA|UK|United Kingdom)","\\1",normed,perl=T),
+    #Drop "in London,", "V Beograd" and so forth.
+    normed = gsub("^(in|In|À|A|U|V|W|Imprinted at|Impresa en|Printed at) ","",normed,perl=T),
     
     normed = gsub(" +$","",normed,perl=T),     
     normed = gsub("^ +","",normed,perl=T)
