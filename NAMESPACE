@@ -1,4 +1,7 @@
-import(dplyr,
-       geonames)
+import(
+       geonames,
+       RCurl,
+       rjson,
+       dplyr)
 
 export(geocode)
