@@ -6,12 +6,9 @@
 #' @name the name of the column in the data.frame giving the 
 #' @n the number of entries to look up online (geonames has a limit.)
 #' @file  the file to output a table to, suitable for reading in Bookworm format.
-#' 
 
 
-geocode = function(db,fieldName,n=0,file="geocoded.txt") {
-  config = read.table('geolocation.cnf',sep="=",col.names=c("key","value"), as.is=c(1,2))
-  options(geonamesUsername=config$value[config$key=="geonamesUsername"])
+geocode = function(db,fieldName,n=0,file="geocoded.txt") {  
   #temporary hack:
   idField = paste0(fieldName,"__id")
   search_limits = list(list("$gte"=0)); names(search_limits)= idField
@@ -22,9 +19,9 @@ geocode = function(db,fieldName,n=0,file="geocoded.txt") {
   )
   grouped = cleanNames(places)
   
-{  #This block matches against cached data, and update the cached data with `n` new results
+  {  #This block matches against cached data, and update the cached data with `n` new results
     
-    cachedData=read.table("cachedData.txt",sep="\t",header=T,quote="",comment.char="",stringsAsFactors=F)
+    cachedData=read.table("cachedData.tsv",sep="\t",header=T,quote="",comment.char="",stringsAsFactors=F)
     if (n>0) {
       unseen = grouped %>% filter(!normed %in% cachedData$normed)
       #Make it just one column with no duplicates
@@ -33,7 +30,7 @@ geocode = function(db,fieldName,n=0,file="geocoded.txt") {
         unseen %>% head(n) %>% group_by(normed) %>% do(geoSearch(.$normed))
       #For each name, we select the following elements
       cachedData = rbind(cachedData,newData)
-      write.table(cachedData,file="cachedData.txt",sep="\t",quote=F,row.names=F,col.names=T)
+      write.table(cachedData,file="cachedData.tsv",sep="\t",quote=F,row.names=F,col.names=T)
     }
   }
   #To code by location, we match the normalized data against us.
@@ -45,3 +42,11 @@ geocode = function(db,fieldName,n=0,file="geocoded.txt") {
   names(loadable)[1] = fieldName
   write.table(loadable,file,sep="\t",row.names=F,col.names=T,quote=F)
 }
+
+tryCatch({
+  config = read.table('geolocation.cnf',sep="=",col.names=c("key","value"), as.is=c(1,2))
+  options(geonamesUsername=config$value[config$key=="geonamesUsername"])
+}, error= function(e) {
+  
+  warning("No options file named 'geolocation.cnf' was found in the current directory")
+})
