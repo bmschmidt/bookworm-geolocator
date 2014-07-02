@@ -8,26 +8,42 @@
 #' @file  the file to output a table to, suitable for reading in Bookworm format.
 
 
-geocode = function(db,fieldName,n=0,file="geocoded.txt") {  
+geocode = function(
+  db=readline("Enter the name of the local bookworm installation or tsv file to read from: ")
+  ,
+  fieldName=readline()
+  ,
+  n=ifelse(geonameid=="",0,50)
+  ,
+  file="geocoded.txt",
+  geonamesid=""
+  ) {  
   #temporary hack:
-  idField = paste0(fieldName,"__id")
-  search_limits = list(list("$gte"=0)); names(search_limits)= idField
-  places = webQuery(host="localhost",
-                    query=list(database=db,groups=list(fieldName),
-                               search_limits = search_limits,
-                               counttype=list("TextCount"))
-  )
+  
+  if (grep(".(tsv|txt)$",db)) {
+    places = read.table(db,sep="\t",header=T) %>% group_by(fieldName) %>% summarize(count=n())
+  } else {
+    idField = paste0(fieldName,"__id")
+    search_limits = list(list("$gte"=0)); names(search_limits)= idField
+    places = webQuery(host="localhost",
+                      query=list(database=db,
+                                  groups=list(fieldName),
+                                 search_limits = search_limits,
+                                 counttype=list("TextCount"))
+    )
+    
+  }
+  
   grouped = cleanNames(places)
   
   {  #This block matches against cached data, and update the cached data with `n` new results
-    
     cachedData=read.table("cachedData.tsv",sep="\t",header=T,quote="",comment.char="",stringsAsFactors=F)
     if (n>0) {
       unseen = grouped %>% filter(!normed %in% cachedData$normed)
       #Make it just one column with no duplicates
       unseen = data.frame(normed=unique(unseen$normed)) %>% as.tbl
-      newData =
-        unseen %>% head(n) %>% group_by(normed) %>% do(geoSearch(.$normed))
+      #Run a web search for every unseen element
+      newData = unseen %>% head(n) %>% group_by(normed) %>% do(geoSearch(.$normed))
       #For each name, we select the following elements
       cachedData = rbind(cachedData,newData)
       write.table(cachedData,file="cachedData.tsv",sep="\t",quote=F,row.names=F,col.names=T)
@@ -43,10 +59,3 @@ geocode = function(db,fieldName,n=0,file="geocoded.txt") {
   write.table(loadable,file,sep="\t",row.names=F,col.names=T,quote=F)
 }
 
-tryCatch({
-  config = read.table('geolocation.cnf',sep="=",col.names=c("key","value"), as.is=c(1,2))
-  options(geonamesUsername=config$value[config$key=="geonamesUsername"])
-}, error= function(e) {
-  
-  warning("No options file named 'geolocation.cnf' was found in the current directory")
-})

@@ -1,6 +1,10 @@
 #' Cleans the names of places according to some regexes that work well on library catalogs. 
 cleanNames = function(counts) {
+  
+  
   names(counts) = c("originalName","count")
+  
+  #This is the stuff that regularizes names through cleaning regexes.
   counts = counts %>% mutate(
     #Drop all characters in this set: ][?.
     normed = gsub("[\\[\\]\\?]","",originalName,perl=T),
