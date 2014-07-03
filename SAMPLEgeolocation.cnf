@@ -1,0 +1,5 @@
+geonamesID=yourNameHere
+bookwormName=yourBookworm
+fieldName=place
+outputFile=geocoded.txt
+nToAdd=500
