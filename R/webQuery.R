@@ -31,8 +31,6 @@ webQuery = function(query,host="localhost",method="return_tsv") {
       quote='',
       fill=T,
       comment.char='')
-    ?read.table
-    ?read.table
     if(ncol(data)==1 & method=="return_tsv") {
       data = data[grep("^[<>]",data[,1],invert=T),]
       warning(destination)
