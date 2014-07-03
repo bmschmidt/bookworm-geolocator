@@ -29,7 +29,9 @@ It also includes an increasing number of colleges and universities.
 
 Before geolocating, this performs a large numbers of checks and transformations to try to get data into the best form possible for geolocation.
 
-That means, for example, that obsolete state abbreviations like "Penna." and "Calif." will be transformed into their modern equivalents; dual places of publication like "London and Edinborough" will be reduced to their first city; and so on.
+That means, for example, that obsolete state abbreviations like "Penna." and "Calif." will be transformed into their modern equivalents; dual places of publication like "London and Edinborough" will be reduced to their first city; it knows that "V Beograd" means "V Belgrade," and drops the "V" from the front; and so on.
+
+This sort of cleaning is often done manually, but the rules should be widely shared across platforms. (Perhaps even more widely shared than the default names; it's conceivable we might want separate lookup databases for the New and Old World, eventually.
 
 # Running
 
@@ -43,7 +45,10 @@ geonamesid=YOURidFORgeonames
 
 # Contributing
 
-As with all open-source projects, you're welcome to delve into the code.
+1. As with all open-source projects, you're welcome to delve into the code.
+
+2. You can also contribute by cleaning up or adding to the "cachedData.tsv" file. You may edit it by hand: or, your local copy will be automatically updated every time you run the script to add new entries.
+
 
 # Dependencies
 
