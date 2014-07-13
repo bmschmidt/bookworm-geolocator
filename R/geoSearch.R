@@ -14,7 +14,7 @@ geoSearch = function(string) {
         if (nrow(val)==0 && grepl("ae$",string)) {
             #Special case for latin names out of the genitive.
             #Doesn't work as well with i -> us, so not bothering. 
-            val = GNsearch(q=gsub("ae$","a",string))
+            val = GNsearch(q=gsub("ae$","a",string),maxRows=1)
         }
        
         if (nrow(val)==0) {
