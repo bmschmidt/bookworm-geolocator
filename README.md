@@ -35,13 +35,20 @@ This sort of cleaning is often done manually, but the rules should be widely sha
 
 # Running
 
-First, you have to set up a file named bookworm.cnf. That should have two or three lines, and look basically like this.
+First, you have to set up a file named geolocation.cnf. Copy the file `SAMPLEgeolocation.cnf` provided, change the variables, and move to your place.
 
-```
-database=NAMEofBOOKWORM
-fieldName=FIELDinBOOKWORMwithGEONAME
-geonamesid=YOURidFORgeonames
-```
+Then run using R. `Rscript walkThrough.R` should run, downloading up to n new places as specified in your config and using the existing ones from the cache.
+
+You'll need to install a few packages in addition to base R: RCurl (which requires the dev curl lib, not just plain old curl), dplyr, geonames, etc.
+
+Finally, you've got a file called `geocoded.txt`. 
+
+Run the following line `cd ../..; python OneClick.py supplementMetadataFromTSV extensions/bookworm-geolocator/geocoded.txt`.
+
+And your bookworm is updated with a whole bunch of new geodata.
+
+
+
 
 # Contributing
 
