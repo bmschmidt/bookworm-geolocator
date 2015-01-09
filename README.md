@@ -59,16 +59,20 @@ And your bookworm is updated with a whole bunch of new geodata.
 
 # Contributing
 
-1. As with all open-source projects, you're welcome to delve into the code.
+1. As with all open-source projects, you're welcome to delve into the code, obviously.
 
-2. You can also contribute by cleaning up or adding to the "cachedData.tsv" file. You may edit it by hand: or, your local copy will be automatically updated every time you run the script to add new entries.
+2. For scholars/librarians who aren't comfortable doing that: you can also contribute by cleaning up or adding to the "cachedData.tsv" file. You may edit it by hand: or, your local copy will be automatically updated every time you run the script to add new entries.
 
 
 # Dependencies
 
 This uses R and the `geonames` package.
+It also relies on the r packages:
 
-If you want to add to the cached database, you must also acquire a geonames username.
+* `dplyr`
+* `devtools`
+* `geonames`
+    * If you want to add to the cached database, you must also acquire a geonames username. It should run without one, though, as long as your configuration file doesn't look for new files.
 
 
 ## Note on sources
