@@ -1,7 +1,14 @@
 bookworm-geolocator
 ===================
 
-This provides geolocation of placenames specifically adapted to the needs of library catalog metadata and other publishing-related metadata.
+This provides geolocation of placenames specifically adapted to the needs of bookworm installation.
+
+It has two different datasets currently built in. 
+
+1. The first (and better developed) is on the master branch--it's built to work with **library--appropriate** locations.
+
+2. The second is built to better geocode the output of locations produced by the Stanford Named-Entity Recognition parser. The core files of updated name files have been produced by Mitch Fraas of the University of Pennsylvania. That work is stored, for the time being, on the "NER" branch, although it will be integrated as an option into the main tree eventually.
+
 
 It's built as a Bookworm plugin, so by default it gets the data about publication places from a local API call.
 
