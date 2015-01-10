@@ -39,7 +39,11 @@ First, you have to set up a file named geolocation.cnf. Copy the file `SAMPLEgeo
 
 Then run using R. `Rscript walkThrough.R` should run, downloading up to n new places as specified in your config and using the existing ones from the cache.
 
-You'll need to install a few packages in addition to base R: RCurl (which requires the dev curl lib, not just plain old curl), dplyr, geonames, etc.
+You'll need to install a few packages in addition to base R for the run, outside the basic Bookworm ecosystem:
+1. RCurl
+2. The system-wide dev curl lib, not just plain old curl
+3. The dplyr package for R,
+4. The geonames package for R (which sends warnings you can safely ignore if your geolocation.cnf file includes a username.
 
 Finally, you've got a file called `geocoded.txt`. 
 
