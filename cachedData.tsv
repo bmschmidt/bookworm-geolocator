@@ -102,7 +102,7 @@ Montevideo	Montevideo	NA	NA	[-34.817317,-56.158871]		Location
 La Plata	La Plata	NA	NA	[-34.92125,-57.954333]		Location
 Chile	Chile	NA	Chile	[-35.675147,-71.542969]		Country
 Republic of Chili	Republic of Chili	NA	Republic of Chili	[-35.675147,-71.542969]		Country
-Bosnia	Bosnia	NA	Bosnia	[-36.789695,-73.11344]		Country
+Bosnia	Bosnia	NA	Bosnia	[43.915886,17.679076]		Country
 Auckland	Auckland	NA	NA	[-36.84846,174.763332]		Location
 Itata	Itata	NA	NA	[-36.901685,-73.144369]		Location
 Melbourne	Melbourne	NA	NA	[-37.814215,144.963231]		Location
@@ -151,14 +151,14 @@ Expendi	Expendi	NA	NA	[]
 Nicaragua Canal	Nicaragua Canal	NA	Nicaragua Canal	[12.865416,-85.207229]		Country
 Northern States	Northern States	NA	NA	[40.642042, -82.097963]		Region
 Oceanica	Oceanica	NA	NA	[40.642042, -82.097963]		Region
-Old World	Old World	NA	NA	[]		
+Old World	Old World	NA	NA	[54.525961,15.255119]		
 Pacific States	Pacific States	NA	NA	[38.928509,-120.936298]		Region
 Patagonian	Patagonian	NA	NA	[-41.810147,-68.906269]		Region
 Spanish Indies	Spanish Indies	NA	Spanish Indies	[12.879721,121.774017]		Country
 Territory of Orleans	Territory of Orleans	NA	NA	[ 38.041638, -95.221934]		Region
 Upper Colorado River Basin	Upper Colorado River Basin	NA	NA	[ 38.944493, -109.086679]		Region
 Acheen	Acheen	NA	NA	[4.695135,96.749399]		Location
-Cape Serdze	Cape Serdze	NA	NA	[]		
+Cape Serdze	Cape Serdze	NA	NA	[66.911797, -171.636688]		
 Great Kenhawa	Great Kenhawa	NA	NA	[38.837859,-82.142645]		Location
 Kaskaskias	Kaskaskias	NA	NA	[37.921441,-89.913164]		Location
 Playtas	Playtas	NA	NA	[]		
@@ -555,10 +555,10 @@ Anbar	Anbar	NA	NA	[32.559761,41.919647]		Region
 Anbar Province	Anbar Province	NA	NA	[32.559761,41.919647]		Region
 Mississippi Valley	Mississippi Valley	NA	NA	[32.630227,-90.86313]		Region
 San Diego	San Diego	NA	NA	[32.715329,-117.157255]		Location
-Arlington	Arlington	NA	NA	[32.735687,-97.108066]		Location
-ARLINGTON	ARLINGTON	NA	NA	[32.735687,-97.108066]		Location
-Arlington	Arlington	NA	NA	[32.735687,-97.108066]		Location
-Arlington Cemetery	Arlington Cemetery	NA	NA	[32.735687,-97.108066]		Location
+Arlington	Arlington	NA	NA	[38.87706,-77.075484]		Location
+ARLINGTON	ARLINGTON	NA	NA	[38.87706,-77.075484]		Location
+Arlington	Arlington	NA	NA	[38.87706,-77.075484]		Location
+Arlington Cemetery	Arlington Cemetery	NA	NA	[38.87706,-77.075484]		Location
 Imperial Valley	Imperial Valley	NA	NA	[32.737548,-114.963301]		Region
 Fort Sumter	Fort Sumter	NA	NA	[32.752348,-79.874692]		Location
 Derne	Derne	NA	NA	[32.763821,22.63924]		Location
@@ -567,7 +567,7 @@ Charleston	Charleston	NA	NA	[32.776566,-79.930922]		Location
 Dallas	Dallas	NA	NA	[32.78014,-96.800451]		Location
 Red River	Red River	NA	NA	[32.785572,-95.773557]		Region
 Sail Diego	Sail Diego	NA	NA	[32.788514,-117.244831]		Location
-Cyrenaica	Cyrenaica	NA	NA	[32.827778,�21.862222]		Location
+Cyrenaica	Cyrenaica	NA	NA	[32.827778,21.862222]		Location
 Ocmulgee	Ocmulgee	NA	NA	[32.829802,-83.603804]		Location
 Pine Mountain	Pine Mountain	NA	NA	[32.864852,-84.854098]		Location
 Tripoli	Tripoli	NA	NA	[32.876174,13.187507]		Location
@@ -1070,7 +1070,7 @@ Lake of the Woods	Lake of the Woods	NA	NA	[42.365529,-122.213303]		Region
 Cardenas	Cardenas	NA	NA	[42.374808,-2.763231]		Location
 Charlestown	Charlestown	NA	NA	[42.378207,-71.060213]		Location
 Massachusetts	Massachusetts	Massachusetts	NA	[42.407211,-71.382437]		State
-Earnest	Earnest	NA	NA	[42.415024,-83.386131]		Location
+Earnest	Earnest	NA	NA	[]		Location
 Malden	Malden	NA	NA	[42.425096,-71.066163]		Location
 Concord	Concord	NA	NA	[42.460372,-71.348948]		Location
 Marblehead	Marblehead	NA	NA	[42.499958,-70.857802]		Location
@@ -1500,7 +1500,7 @@ Horn of Africa	Horn of Africa	NA	NA	[9.130378,41.280858]		Region
 northeast Africa	northeast Africa	NA	NA	[9.130378,41.280858]		Region
 Ethiopia	Ethiopia	NA	Ethiopia	[9.145,40.489673]		Country
 Chagres River	Chagres River	NA	NA	[9.234552,-79.529598]		Location
-Manchuria	Manchuria	NA	NA	[9.58334,-75.43335]		Region
+Manchuria	Manchuria	NA	NA	[45,125]		Region
 Costa Rica	Costa Rica	NA	Costa Rica	[9.748917,-83.753428]		Country
 Republic of Costa Rica	Republic of Costa Rica	NA	Republic of Costa Rica	[9.748917,-83.753428]		Country
 Negros	Negros	NA	NA	[9.824592,122.908238]		Region
