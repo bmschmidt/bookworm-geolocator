@@ -13,6 +13,9 @@ tryCatch({
     stop("No options file named 'geolocation.cnf' was found in the current directory: please update the sample geolocation file, save it as geolocation.cnf, and try again.")
 })
 
+conf = function(key,frame=config) {
+    frame$value[frame$key==key]
+}
 
+geocode(conf("bookwormName"),conf("fieldName"),n=conf("nToAdd"),geonamesid=conf("geonamesID"),file=conf("outputFile"))
 
-geocode(bookwormName,fieldName,n=nToAdd,geonamesid=geonamesID,file=outputFile)
