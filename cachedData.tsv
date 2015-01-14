@@ -10,7 +10,7 @@ South Sea	South Sea	NA	NA	[-0.35156,-123.105476]		Ocean
 Southwest Pacific	Southwest Pacific	NA	NA	[-0.35156,-123.105476]		Ocean
 Northern Pacific	Northern Pacific	NA	NA	[-0.35156,-123.105476]		Ocean
 Central Pacific	Central Pacific	NA	NA	[-0.35156,-123.105476]		Ocean
-Fernandina	Fernandina	NA	NA	[-0.41238,-91.482148]		Location
+Fernandina	Fernandina	NA	NA	[30.683030,-81.461750]		Location
 Sumatra	Sumatra	NA	NA	[-0.589724,101.343106]		Region
 Dutch East Indies	Dutch East Indies	NA	Dutch East Indies	[-0.789275,113.921327]		Country
 Indonesia	Indonesia	NA	Indonesia	[-0.789275,113.921327]		Country
@@ -54,7 +54,7 @@ Amazon River	Amazon River	NA	NA	[-2.165109,-55.115513]		Region
 Guayaquil	Guayaquil	NA	NA	[-2.203816,-79.897453]		Location
 Southeast Asia	Southeast Asia	NA	NA	[-2.21797,115.66283]		Region
 Iquique	Iquique	NA	NA	[-20.2167,-70.142223]		Location
-North-East	North-East	NA	NA	[-20.903055,27.455639]		Region
+North-East	North-East	NA	NA	[43.965389,-70.822654]		Region
 St. Pierre	St. Pierre	NA	NA	[-21.332838,55.471843]		Location
 Botswana	Botswana	NA	Botswana	[-22.328474,24.684866]		Country
 Rio de Janeiro	Rio de Janeiro	NA	NA	[-22.913395,-43.20071]		Location
@@ -102,7 +102,7 @@ Montevideo	Montevideo	NA	NA	[-34.817317,-56.158871]		Location
 La Plata	La Plata	NA	NA	[-34.92125,-57.954333]		Location
 Chile	Chile	NA	Chile	[-35.675147,-71.542969]		Country
 Republic of Chili	Republic of Chili	NA	Republic of Chili	[-35.675147,-71.542969]		Country
-Bosnia	Bosnia	NA	Bosnia	[-36.789695,-73.11344]		Country
+Bosnia	Bosnia	NA	Bosnia	[43.915886,17.679076]		Country
 Auckland	Auckland	NA	NA	[-36.84846,174.763332]		Location
 Itata	Itata	NA	NA	[-36.901685,-73.144369]		Location
 Melbourne	Melbourne	NA	NA	[-37.814215,144.963231]		Location
@@ -138,7 +138,7 @@ South American	South American	NA	NA	[-8.783195,-55.491477]		Continent
 South American Republics	South American Republics	NA	NA	[-8.783195,-55.491477]		Continent
 South American States	South American States	NA	NA	[-8.783195,-55.491477]		Continent
 Southern America	Southern America	NA	NA	[-8.783195,-55.491477]		Region
-Fuca	Fuca	NA	NA	[-8.805278,14.241667]		Location
+Fuca	Fuca	NA	NA	[48.285870,-123.366623]		Location
 East Timor	East Timor	NA	East Timor	[-8.874217,125.727539]		Country
 Antarctic	Antarctic	NA	NA	[-82.862752,-135]		Continent
 Antarctica	Antarctica	NA	NA	[-82.862752,-135]		Continent
@@ -151,14 +151,14 @@ Expendi	Expendi	NA	NA	[]
 Nicaragua Canal	Nicaragua Canal	NA	Nicaragua Canal	[12.865416,-85.207229]		Country
 Northern States	Northern States	NA	NA	[40.642042, -82.097963]		Region
 Oceanica	Oceanica	NA	NA	[40.642042, -82.097963]		Region
-Old World	Old World	NA	NA	[]		
+Old World	Old World	NA	NA	[54.525961,15.255119]		
 Pacific States	Pacific States	NA	NA	[38.928509,-120.936298]		Region
 Patagonian	Patagonian	NA	NA	[-41.810147,-68.906269]		Region
 Spanish Indies	Spanish Indies	NA	Spanish Indies	[12.879721,121.774017]		Country
 Territory of Orleans	Territory of Orleans	NA	NA	[ 38.041638, -95.221934]		Region
 Upper Colorado River Basin	Upper Colorado River Basin	NA	NA	[ 38.944493, -109.086679]		Region
 Acheen	Acheen	NA	NA	[4.695135,96.749399]		Location
-Cape Serdze	Cape Serdze	NA	NA	[]		
+Cape Serdze	Cape Serdze	NA	NA	[66.911797, -171.636688]		
 Great Kenhawa	Great Kenhawa	NA	NA	[38.837859,-82.142645]		Location
 Kaskaskias	Kaskaskias	NA	NA	[37.921441,-89.913164]		Location
 Playtas	Playtas	NA	NA	[]		
@@ -241,8 +241,8 @@ San Jose de Guatemala	San Jose de Guatemala	NA	NA	[14.541961,-90.543214]		Locati
 West Point	West Point	NA	NA	[14.624783,121.051737]		Location
 Malaya	Malaya	NA	Malaya	[14.63485,121.056048]		Country
 Bataan	Bataan	NA	NA	[14.641684,120.481845]		Location
-Asia Pacific	Asia Pacific	NA	NA	[14.67614,121.012732]		Region
-Asia-Pacific	Asia-Pacific	NA	NA	[14.67614,121.012732]		Region
+Asia Pacific	Asia Pacific	NA	NA	[23.424957, 131.319520]		Region
+Asia-Pacific	Asia-Pacific	NA	NA	[23.424957, 131.319520]		Region
 Subig Bay	Subig Bay	NA	NA	[14.791058,120.239734]		Location
 Olongapo	Olongapo	NA	NA	[14.83863,120.284202]		Location
 Eastern Caribbean	Eastern Caribbean	NA	NA	[15,-68]		Region
@@ -274,7 +274,7 @@ Mali	Mali	NA	Mali	[17.570692,-3.996166]		Country
 St. Croix	St. Croix	NA	St. Croix	[17.724597,-64.834799]		Country
 Guanica	Guanica	NA	NA	[17.969631,-66.910939]		Location
 Guayama	Guayama	NA	NA	[17.984133,-66.113777]		Location
-British Islands	British Islands	NA	NA	[18,-68]		Location
+British Islands	British Islands	NA	NA	[55.378051,-3.435973]		Location
 Antilles	Antilles	NA	NA	[18,-70]		Region
 Ponce	Ponce	NA	NA	[18.011077,-66.614062]		Location
 Spanish Antilles	Spanish Antilles	NA	NA	[18.022606,-63.059996]		Region
@@ -429,7 +429,7 @@ East Florida	East Florida	East Florida	NA	[27.664827,-81.515754]		State
 Fla.	Fla.	Fla.	NA	[27.664827,-81.515754]		State
 Florida	Florida	Florida	NA	[27.664827,-81.515754]		State
 Territories of Florida	Territories of Florida	Territories of Florida	NA	[27.664827,-81.515754]		State
-West Florida	West Florida	West Florida	NA	[27.664827,-81.515754]		State
+West Florida	West Florida	West Florida	NA	[29.725768,-84.983244]		Region
 Nueces	Nueces	NA	NA	[27.769335,-97.481416]		Location
 Corpus Christi	Corpus Christi	NA	NA	[27.800583,-97.396381]		Location
 Tampa	Tampa	NA	NA	[27.950575,-82.457178]		Location
@@ -449,7 +449,7 @@ Chihuahua	Chihuahua	NA	NA	[28.632996,-106.0691]		Region
 Eagle Pass	Eagle Pass	NA	NA	[28.709143,-100.499521]		Location
 Seminole	Seminole	NA	NA	[28.713169,-81.207816]		Location
 Rio Grande River	Rio Grande River	NA	NA	[28.810112,-101.837177]		Region
-South Pass	South Pass	NA	NA	[29.062575,-89.207488]		Location
+South Pass	South Pass	NA	NA	[42.37,-108.913611]		Location
 Rio Grande	Rio Grande	NA	NA	[29.127487,-103.242538]		Region
 Curtis Bay Pier	Curtis Bay Pier	NA	NA	[29.213293,-81.022492]		Location
 Middle Eastern	Middle Eastern	NA	NA	[29.298528,42.55096]		Region
@@ -555,10 +555,10 @@ Anbar	Anbar	NA	NA	[32.559761,41.919647]		Region
 Anbar Province	Anbar Province	NA	NA	[32.559761,41.919647]		Region
 Mississippi Valley	Mississippi Valley	NA	NA	[32.630227,-90.86313]		Region
 San Diego	San Diego	NA	NA	[32.715329,-117.157255]		Location
-Arlington	Arlington	NA	NA	[32.735687,-97.108066]		Location
-ARLINGTON	ARLINGTON	NA	NA	[32.735687,-97.108066]		Location
-Arlington	Arlington	NA	NA	[32.735687,-97.108066]		Location
-Arlington Cemetery	Arlington Cemetery	NA	NA	[32.735687,-97.108066]		Location
+Arlington	Arlington	NA	NA	[38.87706,-77.075484]		Location
+ARLINGTON	ARLINGTON	NA	NA	[38.87706,-77.075484]		Location
+Arlington	Arlington	NA	NA	[38.87706,-77.075484]		Location
+Arlington Cemetery	Arlington Cemetery	NA	NA	[38.87706,-77.075484]		Location
 Imperial Valley	Imperial Valley	NA	NA	[32.737548,-114.963301]		Region
 Fort Sumter	Fort Sumter	NA	NA	[32.752348,-79.874692]		Location
 Derne	Derne	NA	NA	[32.763821,22.63924]		Location
@@ -567,7 +567,7 @@ Charleston	Charleston	NA	NA	[32.776566,-79.930922]		Location
 Dallas	Dallas	NA	NA	[32.78014,-96.800451]		Location
 Red River	Red River	NA	NA	[32.785572,-95.773557]		Region
 Sail Diego	Sail Diego	NA	NA	[32.788514,-117.244831]		Location
-Cyrenaica	Cyrenaica	NA	NA	[32.827778,�21.862222]		Location
+Cyrenaica	Cyrenaica	NA	NA	[32.827778,21.862222]		Location
 Ocmulgee	Ocmulgee	NA	NA	[32.829802,-83.603804]		Location
 Pine Mountain	Pine Mountain	NA	NA	[32.864852,-84.854098]		Location
 Tripoli	Tripoli	NA	NA	[32.876174,13.187507]		Location
@@ -604,7 +604,7 @@ Tunisia	Tunisia	NA	Tunisia	[33.886917,9.537499]		Country
 Beirut	Beirut	NA	NA	[33.888629,35.495479]		Location
 South	South	NA	NA	[33.897777,-85.255738]		Region
 Southern States	Southern States	NA	NA	[33.897777,-85.255738]		Region
-French North Africa	French North Africa	NA	NA	[33.900273,35.502237]		Location
+French North Africa	French North Africa	NA	NA	[28.033886,1.659626]		Location
 Watts	Watts	NA	NA	[33.938636,-118.238043]		Location
 Afghan	Afghan	NA	Afghan	[33.93911,67.709953]		Country
 Afghanistan	Afghanistan	NA	Afghanistan	[33.93911,67.709953]		Country
@@ -641,7 +641,7 @@ Konia	Konia	NA	NA	[34.783889,32.458333]		Location
 Syria	Syria	NA	Syria	[34.802075,38.996815]		Country
 Syrian	Syrian	NA	Syrian	[34.802075,38.996815]		Country
 Chickamauga	Chickamauga	NA	NA	[34.871188,-85.29079]		Location
-North Atlantic	North Atlantic	NA	NA	[34.880624,-76.351564]		Region
+North Atlantic	North Atlantic	NA	NA	[57.680660,-37.661133]		Region
 Spartanburg	Spartanburg	NA	NA	[34.949567,-81.932048]		Location
 Santa Maria	Santa Maria	NA	NA	[34.953034,-120.435719]		Location
 Memphis	Memphis	NA	NA	[35.038725,-89.850501]		Location
@@ -748,7 +748,7 @@ USA	USA	NA	USA	[37.09024,-95.712891]		Country
 U.S.A	U.S.A	NA	U.S.A	[37.09024,-95.712891]		Country
 Korean Peninsula	Korean Peninsula	NA	NA	[37.094056,-76.44924]		Region
 Northwest States	Northwest States	NA	NA	[37.123428,-81.844293]		Region
-Carthage	Carthage	NA	NA	[37.176447,-94.310223]		Location
+Carthage	Carthage	NA	NA	[36.858056,10.330833]		Location
 Granada	Granada	NA	Granada	[37.177336,-3.598557]		Country
 Jamestown	Jamestown	NA	NA	[37.208203,-76.774126]		Location
 Blacksburg	Blacksburg	NA	NA	[37.229573,-80.413939]		Location
@@ -862,7 +862,7 @@ Rockville	Rockville	NA	NA	[39.105506,-77.184429]		Location
 Fort Riley	Fort Riley	NA	NA	[39.112072,-96.815965]		Location
 Fort Miami	Fort Miami	NA	NA	[39.119502,-84.81245]		Location
 Delaware Bay	Delaware Bay	NA	NA	[39.120171,-75.247906]		Location
-Walnut Hills	Walnut Hills	NA	NA	[39.125687,-84.48813]		Location
+Walnut Hills	Walnut Hills	NA	NA	[32.336111,-90.875278]		Location
 Colerain	Colerain	NA	NA	[39.259177,-84.626982]		Location
 Sutro Tunnel	Sutro Tunnel	NA	NA	[39.279162,-119.583624]		Location
 Oconee	Oconee	NA	NA	[39.285598,-89.107579]		Location
@@ -870,8 +870,8 @@ Baltimore	Baltimore	NA	NA	[39.290385,-76.612189]		Location
 Leavenworth	Leavenworth	NA	NA	[39.311111,-94.922464]		Location
 Fort Leavenworth	Fort Leavenworth	NA	NA	[39.311111,-94.922464]		Location
 Utah	Utah	Utah	NA	[39.32098,-111.093731]		State
-Miami	Miami	NA	NA	[39.321413,-93.227982]		Location
-North Miami	North Miami	NA	NA	[39.321413,-93.227982]		Location
+Miami	Miami	NA	NA	[25.76168,-80.19179]		Location
+North Miami	North Miami	NA	NA	[25.890095,-80.186714]		Location
 Truckee	Truckee	NA	NA	[39.327962,-120.183253]		Location
 Mason	Mason	NA	NA	[39.360059,-84.309939]		Location
 Portugal	Portugal	NA	Portugal	[39.399872,-8.224454]		Country
@@ -921,7 +921,7 @@ United States of Colombia	United States of Colombia	NA	United States of Colombia
 Bogota	Bogota	NA	NA	[4.598056,-74.075833]		Location
 Taiping	Taiping	NA	NA	[4.854099,100.737575]		Location
 Yeddo	Yeddo	NA	NA	[40.011389,-87.26]		Location
-BOULDER	BOULDER	NA	NA	[40.014986,-105.270546]		Location
+BOULDER	BOULDER	NA	NA	[36.015556, -114.737778]		Location
 Aranjuez	Aranjuez	NA	NA	[40.03219,-3.602671]		Location
 New Jersey	New Jersey	New Jersey	NA	[40.058324,-74.405661]		State
 Armenia	Armenia	NA	Armenia	[40.069099,45.038189]		Country
@@ -969,7 +969,7 @@ American Republic	American Republic	NA	NA	[40.737441,-73.413348]		Location
 Initiative	Initiative	NA	NA	[40.75345,-73.970198]		Location
 Salt Lake	Salt Lake	NA	NA	[40.760779,-111.891047]		Location
 Salt Lake City	Salt Lake City	NA	NA	[40.760779,-111.891047]		Location
-Astoria	Astoria	NA	NA	[40.762393,-73.930104]		Location
+Astoria	Astoria	NA	NA	[46.187884,-123.831253]		Location
 Long Island	Long Island	NA	NA	[40.789142,-73.13496]		Region
 Wabash	Wabash	NA	NA	[40.797821,-85.820541]		Location
 Lincoln	Lincoln	NA	NA	[40.806862,-96.681679]		Location
@@ -981,8 +981,8 @@ Allianca	Allianca	NA	NA	[40.915336,-81.105931]		Location
 Ohio Canal	Ohio Canal	NA	NA	[40.926282,-81.631297]		Location
 Galesburg	Galesburg	NA	NA	[40.947816,-90.371239]		Location
 Stony Mountains	Stony Mountains	NA	NA	[40.972598,-74.380707]		Region
-Manila	Manila	NA	NA	[40.987375,-109.675649]		Location
-Manila Bay	Manila Bay	NA	NA	[40.987375,-109.675649]		Location
+Manila	Manila	NA	NA	[14.599512,120.98422]		Location
+Manila Bay	Manila Bay	NA	NA	[14.599512,120.98422]		Location
 Lattimer	Lattimer	NA	NA	[40.993973,-75.961313]		Location
 Asiatic Turkey	Asiatic Turkey	NA	NA	[41.00145,39.7178]		Region
 Constantinople	Constantinople	NA	NA	[41.00527,28.97696]		Location
@@ -1022,7 +1022,7 @@ Green River	Green River	NA	NA	[41.528576,-109.466246]		Region
 Buzzards Bay	Buzzards Bay	NA	NA	[41.529275,-70.835779]		Location
 Fort Meigs	Fort Meigs	NA	NA	[41.549881,-83.65395]		Location
 Missouri Valley	Missouri Valley	NA	NA	[41.556371,-95.887777]		Location
-Ohio	Ohio	Ohio	NA	[41.557535,-89.460928]		State
+Ohio	Ohio	Ohio	NA	[40.417287,-82.907123]		State
 Rhode Island	Rhode Island	Rhode Island	NA	[41.580095,-71.477429]		State
 Rock Springs	Rock Springs	NA	NA	[41.587464,-109.202904]		Location
 Fort Delaware	Fort Delaware	NA	NA	[41.599162,-75.027666]		Location
@@ -1054,7 +1054,7 @@ Tripolitania	Tripolitania	NA	NA	[41.930752,12.520243]		Location
 Susquehannah	Susquehannah	NA	NA	[41.943607,-75.599179]		Location
 Plymouth	Plymouth	NA	NA	[41.958446,-70.667262]		Location
 Plymouth Beach	Plymouth Beach	NA	NA	[41.958446,-70.667262]		Location
-Nevada	Nevada	Nevada	NA	[42.022718,-93.452301]		State
+Nevada	Nevada	Nevada	NA	[38.80261,-116.419389]		State
 Rocky Mountains	Rocky Mountains	NA	NA	[42.032974,-109.70215]		Region
 Detroit River	Detroit River	NA	NA	[42.063134,-83.175619]		Region
 Lake Erie	Lake Erie	NA	NA	[42.066885,-81.339941]		Region
@@ -1070,7 +1070,7 @@ Lake of the Woods	Lake of the Woods	NA	NA	[42.365529,-122.213303]		Region
 Cardenas	Cardenas	NA	NA	[42.374808,-2.763231]		Location
 Charlestown	Charlestown	NA	NA	[42.378207,-71.060213]		Location
 Massachusetts	Massachusetts	Massachusetts	NA	[42.407211,-71.382437]		State
-Earnest	Earnest	NA	NA	[42.415024,-83.386131]		Location
+Earnest	Earnest	NA	NA	[]		Location
 Malden	Malden	NA	NA	[42.425096,-71.066163]		Location
 Concord	Concord	NA	NA	[42.460372,-71.348948]		Location
 Marblehead	Marblehead	NA	NA	[42.499958,-70.857802]		Location
@@ -1228,8 +1228,8 @@ Austria	Austria	NA	Austria	[47.516231,14.550072]		Country
 Upper Mississippi River	Upper Mississippi River	NA	NA	[47.531605,-101.794532]		Region
 North Dakota	North Dakota	North Dakota	NA	[47.551493,-101.002012]		State
 St. Johns	St. Johns	NA	NA	[47.560541,-52.712831]		Location
-South Western States	South Western States	NA	NA	[47.566633,-122.386775]		Region
-Southwest	Southwest	NA	NA	[47.566633,-122.386775]		Region
+South Western States	South Western States	NA	NA	[35.822139, -108.201361]		Region
+Southwest	Southwest	NA	NA	[35.822139, -108.201361]		Region
 Seattle	Seattle	NA	NA	[47.60621,-122.332071]		Location
 Bellevue	Bellevue	NA	NA	[47.610377,-122.200679]		Location
 Atlantic Coast	Atlantic Coast	NA	NA	[47.610574,-122.336458]		Region
@@ -1253,7 +1253,7 @@ Stalingrad	Stalingrad	NA	NA	[48.7,44.516667]		Location
 Newfoundland	Newfoundland	NA	NA	[48.777913,-56.477052]		Region
 Bavaria	Bavaria	NA	NA	[48.790447,11.497889]		Region
 Versailles	Versailles	NA	NA	[48.801408,2.130122]		Location
-Vincennes	Vincennes	NA	NA	[48.847759,2.439497]		Location
+Vincennes	Vincennes	NA	NA	[38.677269,-87.528633]		Location
 City of Paris	City of Paris	NA	NA	[48.856614,2.352222]		Location
 Paris	Paris	NA	NA	[48.856614,2.352222]		Location
 St. Mihiel	St. Mihiel	NA	NA	[48.88855,5.541657]		Location
@@ -1279,7 +1279,7 @@ Sulu	Sulu	NA	NA	[5.974901,121.03351]		Region
 Sulu Islands	Sulu Islands	NA	NA	[5.974901,121.03351]		Region
 Bastogne	Bastogne	NA	NA	[50.000506,5.71528]		Location
 Prague	Prague	NA	NA	[50.075538,14.4378]		Location
-Sabine	Sabine	NA	NA	[50.135648,12.582332]		Region
+Sabine	Sabine	NA	NA	[29.985556,-93.790556]		Region
 Central Europe	Central Europe	NA	NA	[50.378472,14.970598]		Region
 Belgium	Belgium	NA	Belgium	[50.503887,4.469936]		Country
 Saxe-Coburg	Saxe-Coburg	NA	NA	[50.528062,12.478733]		Location
@@ -1491,7 +1491,7 @@ PANAMA	PANAMA	NA	PANAMA	[8.994269,-79.518792]		Country
 Panama	Panama	NA	Panama	[8.994269,-79.518792]		Country
 PANAMA	PANAMA	NA	PANAMA	[8.994269,-79.518792]		Country
 Panama	Panama	NA	Panama	[8.994269,-79.518792]		Country
-Lady Franklin Bay	Lady Franklin Bay	NA	NA	[81.666667,�-65]		Location
+Lady Franklin Bay	Lady Franklin Bay	NA	NA	[81.666667,-65]		Location
 Isthmian Canal	Isthmian Canal	NA	NA	[9.057402,-79.657929]		Region
 Panama Canal	Panama Canal	NA	NA	[9.057402,-79.657929]		Region
 Nigeria	Nigeria	NA	Nigeria	[9.081999,8.675277]		Country
@@ -1500,7 +1500,7 @@ Horn of Africa	Horn of Africa	NA	NA	[9.130378,41.280858]		Region
 northeast Africa	northeast Africa	NA	NA	[9.130378,41.280858]		Region
 Ethiopia	Ethiopia	NA	Ethiopia	[9.145,40.489673]		Country
 Chagres River	Chagres River	NA	NA	[9.234552,-79.529598]		Location
-Manchuria	Manchuria	NA	NA	[9.58334,-75.43335]		Region
+Manchuria	Manchuria	NA	NA	[45,125]		Region
 Costa Rica	Costa Rica	NA	Costa Rica	[9.748917,-83.753428]		Country
 Republic of Costa Rica	Republic of Costa Rica	NA	Republic of Costa Rica	[9.748917,-83.753428]		Country
 Negros	Negros	NA	NA	[9.824592,122.908238]		Region
