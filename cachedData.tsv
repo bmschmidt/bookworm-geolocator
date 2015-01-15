@@ -55,7 +55,7 @@ Guayaquil	Guayaquil	NA	NA	[-2.203816,-79.897453]		Location
 Southeast Asia	Southeast Asia	NA	NA	[-2.21797,115.66283]		Region
 Iquique	Iquique	NA	NA	[-20.2167,-70.142223]		Location
 North-East	North-East	NA	NA	[43.965389,-70.822654]		Region
-St. Pierre	St. Pierre	NA	NA	[-21.332838,55.471843]		Location
+St. Pierre	St. Pierre	NA	NA	[46.7778,-56.1778]		Location
 Botswana	Botswana	NA	Botswana	[-22.328474,24.684866]		Country
 Rio de Janeiro	Rio de Janeiro	NA	NA	[-22.913395,-43.20071]		Location
 Rio Janeiro	Rio Janeiro	NA	NA	[-22.913395,-43.20071]		Location
@@ -443,8 +443,8 @@ Midway Island	Midway Island	NA	NA	[28.210076,-177.37611]		Location
 Gulf Coast	Gulf Coast	NA	NA	[28.468605,-96.873039]		Region
 States of Florida	States of Florida	States of Florida	NA	[28.526736,-80.782433]		State
 Orlando	Orlando	NA	NA	[28.538336,-81.379236]		Location
-Greater Republic	Greater Republic	NA	NA	[28.606625,77.437342]		Location
-British West India	British West India	NA	NA	[28.610541,77.353898]		Location
+Greater Republic	Greater Republic	NA	NA	[12.769013,-85.602364]		Location
+British West India	British West India	NA	NA	[21.469114,-78.656894]		Location
 Chihuahua	Chihuahua	NA	NA	[28.632996,-106.0691]		Region
 Eagle Pass	Eagle Pass	NA	NA	[28.709143,-100.499521]		Location
 Seminole	Seminole	NA	NA	[28.713169,-81.207816]		Location
@@ -909,7 +909,7 @@ Plattsburg	Plattsburg	NA	NA	[39.896171,-83.61159]		Location
 Erzerum	Erzerum	NA	NA	[39.9,41.27]		Location
 Pekin	Pekin	NA	NA	[39.90403,116.407526]		Location
 Peking	Peking	NA	NA	[39.90403,116.407526]		Location
-Pell	Pell	NA	NA	[39.90403,116.407526]		Location
+Pell	Pell	NA	NA	[]		Location
 Zanesville	Zanesville	NA	NA	[39.940345,-82.013192]		Location
 Madeira	Madeira	NA	NA	[32.760707,-16.959472]		Location
 Philadelphia	Philadelphia	NA	NA	[39.952335,-75.163789]		Location
