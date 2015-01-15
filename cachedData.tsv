@@ -63,7 +63,7 @@ Namibia	Namibia	NA	Namibia	[-22.95764,18.49041]		Country
 Atacama Desert	Atacama Desert	NA	NA	[-23.369544,-69.859741]		Region
 Paraguay	Paraguay	NA	Paraguay	[-23.442503,-58.443832]		Country
 Southern Africa	Southern Africa	NA	NA	[-24.357077,19.56871]		Region
-Mariana Islands	Mariana Islands	NA	Mariana Islands	[-25.206667,32.963889]		Country
+Mariana Islands	Mariana Islands	NA	Mariana Islands	[16.616667,145.616667]		Country
 Parana	Parana	NA	NA	[-25.252089,-52.021542]		Location
 Australia	Australia	NA	Australia	[-25.274398,133.775136]		Country
 Australian	Australian	NA	Australian	[-25.274398,133.775136]		Country
@@ -72,7 +72,7 @@ White River	White River	NA	NA	[-25.322201,31.021351]		Location
 Pretoria	Pretoria	NA	NA	[-25.73134,28.21837]		Location
 Delagoa Bay	Delagoa Bay	NA	NA	[-26.149613,32.706843]		Location
 Delagoa Bay Railway	Delagoa Bay Railway	NA	NA	[-26.149613,32.706843]		Location
-North West	North West	NA	NA	[-26.66386,25.283758]		Region
+North West	North West	NA	NA	[37.123428,-81.844293]		Region
 Yugoslavia	Yugoslavia	NA	Yugoslavia	[44.786568,20.448922]		Country
 Boer States of Africa	Boer States of Africa	NA	Boer States of Africa	[-28.45411,26.796785]		Country
 Australasia	Australasia	NA	NA	[-29.532804,145.491477]		Region
@@ -94,7 +94,7 @@ South Atlantic Ocean	South Atlantic Ocean	NA	NA	[-33.72434,-15.996094]		Ocean
 South Atlantic	South Atlantic	NA	NA	[-33.72434,-15.996094]		Ocean
 Sydney	Sydney	NA	NA	[-33.867487,151.20699]		Location
 Cape Town	Cape Town	NA	NA	[-33.924868,18.424055]		Location
-Cape San Juan	Cape San Juan	NA	NA	[-34.043268,18.436814]		Location
+Cape San Juan	Cape San Juan	NA	NA	[18.381111,-65.61825]		Location
 Cape of Good Hope	Cape of Good Hope	NA	NA	[-34.357016,18.473668]		Location
 Buenos Aires	Buenos Aires	NA	NA	[-34.603723,-58.381593]		Location
 Buenos Ayres	Buenos Ayres	NA	NA	[-34.603723,-58.381593]		Location
@@ -334,7 +334,7 @@ Hawaiian Kingdom	Hawaiian Kingdom	Hawaiian Kingdom	NA	[19.896766,-155.582782]		S
 Hawaiian Republic	Hawaiian Republic	Hawaiian Republic	NA	[19.896766,-155.582782]		State
 Sandwich Islands	Sandwich Islands	Sandwich Islands	NA	[19.896766,-155.582782]		State
 Caimanera	Caimanera	NA	NA	[19.991135,-75.153079]		Location
-Yedo	Yedo	NA	NA	[2.955556,41.133611]		Location
+Yedo	Yedo	NA	NA	[35.689444,139.691667]		Location
 Pacific Basin	Pacific Basin	NA	NA	[20,-140]		Region
 Guantanamo	Guantanamo	NA	NA	[20.021165,-75.113672]		Location
 Guantanamo Bay	Guantanamo Bay	NA	NA	[20.021165,-75.113672]		Location
@@ -567,7 +567,7 @@ Charleston	Charleston	NA	NA	[32.776566,-79.930922]		Location
 Dallas	Dallas	NA	NA	[32.78014,-96.800451]		Location
 Red River	Red River	NA	NA	[32.785572,-95.773557]		Region
 Sail Diego	Sail Diego	NA	NA	[32.788514,-117.244831]		Location
-Cyrenaica	Cyrenaica	NA	NA	[32.827778,21.862222]		Location
+Cyrenaica	Cyrenaica	NA	NA	[32.825, 21.858056]		Location
 Ocmulgee	Ocmulgee	NA	NA	[32.829802,-83.603804]		Location
 Pine Mountain	Pine Mountain	NA	NA	[32.864852,-84.854098]		Location
 Tripoli	Tripoli	NA	NA	[32.876174,13.187507]		Location
@@ -637,7 +637,7 @@ Seneca	Seneca	NA	NA	[34.685656,-82.953204]		Location
 Kobe	Kobe	NA	NA	[34.690083,135.195511]		Location
 Fort Sill	Fort Sill	NA	NA	[34.704559,-98.509009]		Location
 Little Rock	Little Rock	NA	NA	[34.746481,-92.289595]		Location
-Konia	Konia	NA	NA	[34.783889,32.458333]		Location
+Konia	Konia	NA	NA	[37.866667,32.483333]		Location
 Syria	Syria	NA	Syria	[34.802075,38.996815]		Country
 Syrian	Syrian	NA	Syrian	[34.802075,38.996815]		Country
 Chickamauga	Chickamauga	NA	NA	[34.871188,-85.29079]		Location
@@ -663,7 +663,7 @@ Tennessee	Tennessee	Tennessee	NA	[35.517491,-86.580447]		State
 Santa Fe	Santa Fe	NA	NA	[35.686975,-105.937799]		Location
 Santa Fee	Santa Fee	NA	NA	[35.686975,-105.937799]		Location
 Tokyo	Tokyo	NA	NA	[35.689488,139.691706]		Location
-Old Point	Old Point	NA	NA	[35.693785,-75.716285]		Location
+Old Point	Old Point	NA	NA	[37.000556,-76.311389]		Location
 Teheran	Teheran	NA	NA	[35.696216,51.422945]		Location
 Tehran	Tehran	NA	NA	[35.696216,51.422945]		Location
 Tennessee Valley	Tennessee Valley	NA	NA	[35.757657,-84.72702]		Region
@@ -955,7 +955,7 @@ Ill.	Ill.	Ill.	NA	[40.633125,-89.398528]		State
 Illinois	Illinois	Illinois	NA	[40.633125,-89.398528]		State
 Illinois Territory	Illinois Territory	Illinois Territory	NA	[40.633125,-89.398528]		State
 Brooklyn	Brooklyn	NA	NA	[40.65,-73.95]		Location
-Latin Union	Latin Union	NA	NA	[40.664884,-74.212829]		Location
+Latin Union	Latin Union	NA	NA	[]		Location
 St. Marks	St. Marks	NA	NA	[40.67597,-73.956895]		Location
 Central Valley of California	Central Valley of California	NA	NA	[40.680428,-122.370842]		Region
 Governors Island	Governors Island	NA	NA	[40.68945,-74.016792]		Location
@@ -966,7 +966,7 @@ New York City	New York City	NA	NA	[40.714353,-74.005973]		Location
 Wall Street	Wall Street	NA	NA	[40.714353,-74.005973]		Location
 Newark	Newark	NA	NA	[40.735657,-74.172367]		Location
 American Republic	American Republic	NA	NA	[40.737441,-73.413348]		Location
-Initiative	Initiative	NA	NA	[40.75345,-73.970198]		Location
+Initiative	Initiative	NA	NA	[]		Location
 Salt Lake	Salt Lake	NA	NA	[40.760779,-111.891047]		Location
 Salt Lake City	Salt Lake City	NA	NA	[40.760779,-111.891047]		Location
 Astoria	Astoria	NA	NA	[46.187884,-123.831253]		Location
@@ -989,7 +989,7 @@ Constantinople	Constantinople	NA	NA	[41.00527,28.97696]		Location
 Porte	Porte	NA	NA	[41.00527,28.97696]		Location
 Sublime Porte	Sublime Porte	NA	NA	[41.00527,28.97696]		Location
 Istanbul	Istanbul	NA	NA	[41.00527,28.97696]		Location
-Pearl River	Pearl River	NA	NA	[41.058181,-74.022317]		Region
+Pearl River	Pearl River	NA	NA	[21.350123,-157.949382]		Region
 Youngstown	Youngstown	NA	NA	[41.09978,-80.649519]		Location
 Bosphorus	Bosphorus	NA	NA	[41.119444,29.075278]		Location
 Cheyenne	Cheyenne	NA	NA	[41.139981,-104.820246]		Location
@@ -1035,7 +1035,7 @@ Elkhart	Elkhart	NA	NA	[41.681994,-85.976667]		Location
 Cape Cod	Cape Cod	NA	NA	[41.699096,-70.320911]		Location
 Barnstable	Barnstable	NA	NA	[41.700321,-70.300202]		Location
 Fall River	Fall River	NA	NA	[41.701491,-71.155045]		Location
-Connecticut Reserve	Connecticut Reserve	NA	NA	[41.748539,-72.656966]		Location
+Connecticut Reserve	Connecticut Reserve	NA	NA	[41.499495,-81.695409]		Location
 Brooke-Cranston	Brooke-Cranston	NA	NA	[41.752277,-71.450143]		Location
 Cape Cod Canal	Cape Cod Canal	NA	NA	[41.768161,-70.566141]		Location
 Thompsons Island	Thompsons Island	NA	NA	[41.793115,-79.284492]		Location
@@ -1118,7 +1118,7 @@ Middle West	Middle West	NA	NA	[43.41136,-106.280024]		Region
 Black Sea	Black Sea	NA	NA	[43.413029,34.299316]		Ocean
 Lake Michigan	Lake Michigan	NA	NA	[43.450101,-87.222019]		Ocean
 Oswego	Oswego	NA	NA	[43.455346,-76.510497]		Location
-Rica	Rica	NA	NA	[43.48105,40.540852]		Location
+Rica	Rica	NA	NA	[9.748917,-83.753428]		Location
 Balkan	Balkan	NA	NA	[43.484812,19.328612]		Region
 Balkans	Balkans	NA	NA	[43.484812,19.328612]		Region
 Toronto	Toronto	NA	NA	[43.653226,-79.383184]		Location
@@ -1131,7 +1131,7 @@ Sarajevo	Sarajevo	NA	NA	[43.856259,18.413076]		Location
 Rhine	Rhine	NA	NA	[49.345124,7.866923]		Region
 New England	New England	NA	NA	[43.965389,-70.822654]		Region
 New England States	New England States	NA	NA	[43.965389,-70.822654]		Region
-New England States        Middle States	New England States        Middle States	NA	NA	[43.965389,-70.822654]		Region
+Middle States Middle States	NA	NA	[41,-77.5]		Region
 North East	North East	NA	NA	[43.965389,-70.822654]		Region
 Northeastern States	Northeastern States	NA	NA	[43.965389,-70.822654]		Region
 South Dakota	South Dakota	South Dakota	NA	[43.969515,-99.901813]		State
@@ -1160,7 +1160,7 @@ Halifax	Halifax	NA	NA	[44.648863,-63.57532]		Location
 Mongol Desert	Mongol Desert	NA	NA	[44.671611,110.039284]		Region
 Mongolian Desert	Mongolian Desert	NA	NA	[44.671611,110.039284]		Region
 Nova Scotia	Nova Scotia	NA	NA	[44.681987,-63.744311]		Region
-Kamchatka	Kamchatka	NA	NA	[44.708601,37.632591]		Region
+Kamchatka	Kamchatka	NA	NA	[57,160]		Region
 Machias	Machias	NA	NA	[44.715079,-67.461376]		Location
 Fort Sackville	Fort Sackville	NA	NA	[44.728906,-63.659544]		Location
 Dakota	Dakota	NA	NA	[44.731554,-93.177966]		Region
@@ -1204,7 +1204,7 @@ Republic of France	Republic of France	NA	Republic of France	[46.227638,2.213749]
 Columbia River	Columbia River	NA	NA	[46.245311,-123.801891]		Region
 Columbia River Basin	Columbia River Basin	NA	NA	[46.245311,-123.801891]		Region
 Wahpeton	Wahpeton	NA	NA	[46.265237,-96.605907]		Location
-Frozen Ocean	Frozen Ocean	NA	NA	[46.287813,-69.59006]		Location
+Frozen Ocean	Frozen Ocean	NA	NA	[70.377854,-141.035163]		Location
 New Brunswick	New Brunswick	NA	NA	[46.565316,-66.461916]		Region
 Minnesota	Minnesota	Minnesota	NA	[46.729553,-94.6859]		State
 Swiss	Swiss	NA	Swiss	[46.818188,8.227512]		Country
@@ -1283,7 +1283,7 @@ Sabine	Sabine	NA	NA	[29.985556,-93.790556]		Region
 Central Europe	Central Europe	NA	NA	[50.378472,14.970598]		Region
 Belgium	Belgium	NA	Belgium	[50.503887,4.469936]		Country
 Saxe-Coburg	Saxe-Coburg	NA	NA	[50.528062,12.478733]		Location
-Bourdour	Bourdour	NA	NA	[50.711246,1.675562]		Location
+Bourdour	Bourdour	NA	NA	[37.726909,30.288876]		Location
 Boulogne	Boulogne	NA	NA	[50.725231,1.613334]		Location
 Gosport	Gosport	NA	NA	[50.794995,-1.117547]		Location
 Portsmouth	Portsmouth	NA	NA	[50.816667,-1.083333]		Location
@@ -1345,8 +1345,8 @@ Hamburg	Hamburg	NA	NA	[53.551085,9.993682]		Location
 Belarus	Belarus	NA	Belarus	[53.709807,27.953389]		Country
 British Columbia	British Columbia	NA	NA	[53.726668,-127.647621]		Region
 Lubeck	Lubeck	NA	NA	[53.865886,10.687096]		Location
-James River Canal	James River Canal	NA	NA	[53.91485,-8.01644]		Location
-Seamew	Seamew	NA	NA	[53.962041,-6.367661]		Location
+James River Canal	James River Canal	NA	NA	[37.546111, -77.502778]		Location
+Seamew	Seamew	NA	NA	[]		Location
 York	York	NA	NA	[53.962301,-1.081884]		Location
 Schleswig-Holstein	Schleswig-Holstein	NA	NA	[54.219367,9.696117]		Region
 Gdansk	Gdansk	NA	NA	[54.352025,18.646638]		Location
@@ -1426,7 +1426,7 @@ Yara	Yara	NA	NA	[6.541147,101.280395]		Location
 British Guiana	British Guiana	NA	British Guiana	[6.818835,-58.164115]		Country
 Ponape	Ponape	NA	NA	[6.854125,158.262382]		Location
 Micronesia	Micronesia	NA	NA	[6.887457,158.215072]		Region
-Atrato River	Atrato River	NA	NA	[6.932093,-76.93953]		Location
+Atrato River	Atrato River	NA	NA	[7.382222, -77.110833]		Location
 Sweden	Sweden	NA	Sweden	[60.128161,18.643501]		Country
 Helsinki	Helsinki	NA	NA	[60.173324,24.941025]		Location
 Mount St. Elias	Mount St. Elias	NA	NA	[60.293333,-140.929444]		Location
