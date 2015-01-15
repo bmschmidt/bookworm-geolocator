@@ -705,7 +705,7 @@ Gallatin	Gallatin	NA	NA	[36.388381,-86.44666]		Region
 Moro Province	Moro Province	NA	NA	[6.916667,122.083333]		Region
 Cadiz	Cadiz	NA	NA	[36.527061,-6.288596]		Location
 Upper California	Upper California	NA	NA	[36.600238,-121.894676]		Region
-Burma Road	Burma Road	NA	NA	[36.648582,-112.11382]		Region
+Burma Road	Burma Road	NA	NA	[26.690638,96.211052]		Region
 Tonkawa	Tonkawa	NA	NA	[36.678368,-97.310044]		Location
 Mazar-e-Sharif	Mazar-e-Sharif	NA	NA	[36.70919,67.20849]		Location
 Algiers	Algiers	NA	NA	[36.752887,3.042048]		Location
@@ -746,7 +746,7 @@ United States of America	United States of America	NA	United States of America	[3
 US	US	NA	US	[37.09024,-95.712891]		Country
 USA	USA	NA	USA	[37.09024,-95.712891]		Country
 U.S.A	U.S.A	NA	U.S.A	[37.09024,-95.712891]		Country
-Korean Peninsula	Korean Peninsula	NA	NA	[37.094056,-76.44924]		Region
+Korean Peninsula	Korean Peninsula	NA	NA	[35.907757,127.766922]		Region
 Northwest States	Northwest States	NA	NA	[37.123428,-81.844293]		Region
 Carthage	Carthage	NA	NA	[36.858056,10.330833]		Location
 Granada	Granada	NA	Granada	[37.177336,-3.598557]		Country
@@ -765,7 +765,7 @@ VIRGINIA	VIRGINIA	VIRGINIA	NA	[37.431573,-78.656894]		State
 Virginia	Virginia	Virginia	NA	[37.431573,-78.656894]		State
 Palo Alto	Palo Alto	NA	NA	[37.441883,-122.143019]		Location
 San Joaquin	San Joaquin	NA	NA	[37.450797,-119.235188]		Region
-Center Rock	Center Rock	NA	NA	[37.563161,-96.390468]		Location
+Center Rock	Center Rock	NA	NA	[]		Location
 Seoul	Seoul	NA	NA	[37.566535,126.977969]		Location
 Sicily	Sicily	NA	NA	[37.599994,14.015356]		Region
 Greensburg	Greensburg	NA	NA	[37.602796,-99.292613]		Location
