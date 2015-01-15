@@ -39,7 +39,7 @@ Tutuila	Tutuila	NA	NA	[-14.302726,-170.732529]		Location
 American Samoa	American Samoa	NA	American Samoa	[-14.305941,-170.6962]		Country
 Bolivia	Bolivia	NA	Bolivia	[-16.290154,-63.588653]		Country
 Bolivian Republic	Bolivian Republic	NA	Bolivian Republic	[-16.290154,-63.588653]		Country
-Central American States	Central American States	NA	Central American States	[-18.116944,178.43948]		Country
+Central American States	Central American States	NA	Central American States	[12.769013,-85.602364]		Country
 Tamatav	Tamatav	NA	NA	[-18.1499,49.402309]		Location
 Tacna-Arica	Tacna-Arica	NA	NA	[-18.477044,-70.314533]		Region
 Portuguese South Africa	Portuguese South Africa	NA	Portuguese South Africa	[-18.665695,35.529562]		Country
@@ -73,7 +73,7 @@ Pretoria	Pretoria	NA	NA	[-25.73134,28.21837]		Location
 Delagoa Bay	Delagoa Bay	NA	NA	[-26.149613,32.706843]		Location
 Delagoa Bay Railway	Delagoa Bay Railway	NA	NA	[-26.149613,32.706843]		Location
 North West	North West	NA	NA	[-26.66386,25.283758]		Region
-Yugoslavia	Yugoslavia	NA	Yugoslavia	[-27.49374,-58.7934]		Country
+Yugoslavia	Yugoslavia	NA	Yugoslavia	[44.786568,20.448922]		Country
 Boer States of Africa	Boer States of Africa	NA	Boer States of Africa	[-28.45411,26.796785]		Country
 Australasia	Australasia	NA	NA	[-29.532804,145.491477]		Region
 South Pacific	South Pacific	NA	NA	[-29.53523,-139.277351]		Ocean
@@ -238,7 +238,7 @@ Corregidor	Corregidor	NA	NA	[14.386728,120.576835]		Location
 Corregidor Island	Corregidor Island	NA	NA	[14.386728,120.576835]		Location
 Cavite	Cavite	NA	NA	[14.47913,120.896963]		Location
 San Jose de Guatemala	San Jose de Guatemala	NA	NA	[14.541961,-90.543214]		Location
-West Point	West Point	NA	NA	[14.624783,121.051737]		Location
+West Point	West Point	NA	NA	[41.391483,-73.955972]		Location
 Malaya	Malaya	NA	Malaya	[14.63485,121.056048]		Country
 Bataan	Bataan	NA	NA	[14.641684,120.481845]		Location
 Asia Pacific	Asia Pacific	NA	NA	[23.424957, 131.319520]		Region
@@ -550,7 +550,7 @@ Iran	Iran	NA	Iran	[32.427908,53.688046]		Country
 Islamic Republic of Iran	Islamic Republic of Iran	NA	Islamic Republic of Iran	[32.427908,53.688046]		Country
 Persia	Persia	NA	Persia	[32.427908,53.688046]		Country
 Tuskegee	Tuskegee	NA	NA	[32.430237,-85.707727]		Location
-North German Union	North German Union	NA	North German Union	[32.500755,-117.072904]		Country
+North German Union	North German Union	NA	North German Union	[51.339696,12.373075]		Country
 Anbar	Anbar	NA	NA	[32.559761,41.919647]		Region
 Anbar Province	Anbar Province	NA	NA	[32.559761,41.919647]		Region
 Mississippi Valley	Mississippi Valley	NA	NA	[32.630227,-90.86313]		Region
@@ -911,7 +911,7 @@ Pekin	Pekin	NA	NA	[39.90403,116.407526]		Location
 Peking	Peking	NA	NA	[39.90403,116.407526]		Location
 Pell	Pell	NA	NA	[39.90403,116.407526]		Location
 Zanesville	Zanesville	NA	NA	[39.940345,-82.013192]		Location
-Madeira	Madeira	NA	NA	[39.944639,-8.043294]		Location
+Madeira	Madeira	NA	NA	[32.760707,-16.959472]		Location
 Philadelphia	Philadelphia	NA	NA	[39.952335,-75.163789]		Location
 Columbus	Columbus	NA	NA	[39.961176,-82.998794]		Location
 Colombia	Colombia	NA	Colombia	[4.570868,-74.297333]		Country
@@ -1306,7 +1306,7 @@ Ontario	Ontario	NA	NA	[51.253775,-85.323214]		Region
 Upper Canada	Upper Canada	NA	NA	[51.253775,-85.323214]		Region
 Greenwich	Greenwich	NA	NA	[51.482577,-0.007659]		Location
 London	London	NA	NA	[51.508515,-0.125487]		Location
-West Bank	West Bank	NA	West Bank	[51.51323,-0.08849]		Country
+West Bank	West Bank	NA	West Bank	[31.94657,35.302723]		Country
 Gloucester	Gloucester	NA	NA	[51.864245,-2.238156]		Location
 Poland	Poland	NA	Poland	[51.919438,19.145136]		Country
 POLAND	POLAND	NA	POLAND	[51.919438,19.145136]		Country
@@ -1462,7 +1462,7 @@ Porcupine River	Porcupine River	NA	NA	[67.433333,-141]
 Cape Sabine	Cape Sabine	NA	NA	[68.9156,-164.6077]		Location
 North Slope of Alaska	North Slope of Alaska	NA	NA	[69.684973,-150.123528]		Region
 Cagayan Sulu	Cagayan Sulu	NA	NA	[7.016271,118.474717]		Location
-Kongo Valley	Kongo Valley	NA	NA	[7.345594,-11.132977]		Region
+Kongo Valley	Kongo Valley	NA	NA	[-6.079167, 12.45]		Region
 Darien	Darien	NA	NA	[7.868171,-77.836728]		Location
 Ghana	Ghana	NA	Ghana	[7.946527,-1.023194]		Country
 Lena River	Lena River	NA	NA	[73.01,127]		Region
