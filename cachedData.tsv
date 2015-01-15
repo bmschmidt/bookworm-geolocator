@@ -120,7 +120,7 @@ Latin America	Latin America	NA	NA	[-4.442038,-61.326854]		Region
 Latin American	Latin American	NA	NA	[-4.442038,-61.326854]		Region
 New Zealand	New Zealand	NA	New Zealand	[-40.900557,174.885971]		Country
 Port Arthur	Port Arthur	NA	NA	[-43.138974,147.850694]		Location
-Zanjon	Zanjon	NA	NA	[-5.088272,-81.113157]		Location
+Zanjon	Zanjon	NA	NA	[12.879721,121.774017]		Location
 New Guinea	New Guinea	NA	New Guinea	[-5.092566,140.711092]		Country
 West New Guinea	West New Guinea	NA	West New Guinea	[-5.092566,140.711092]		Country
 Falkland Islands	Falkland Islands	NA	NA	[-51.796253,-59.523613]		Region
@@ -702,7 +702,7 @@ Colorado Rivers	Colorado Rivers	NA	NA	[36.243085,-112.358718]		Region
 Mosul	Mosul	NA	NA	[36.34,43.13]		Location
 Indian Territory	Indian Territory	NA	NA	[36.368222,-96.881104]		Region
 Gallatin	Gallatin	NA	NA	[36.388381,-86.44666]		Region
-Moro Province	Moro Province	NA	NA	[36.522905,-5.865305]		Region
+Moro Province	Moro Province	NA	NA	[6.916667,122.083333]		Region
 Cadiz	Cadiz	NA	NA	[36.527061,-6.288596]		Location
 Upper California	Upper California	NA	NA	[36.600238,-121.894676]		Region
 Burma Road	Burma Road	NA	NA	[36.648582,-112.11382]		Region
@@ -938,7 +938,7 @@ North Korean	North Korean	NA	North Korean	[40.339852,127.510093]		Country
 Steubenville	Steubenville	NA	NA	[40.369791,-80.633964]		Location
 Black America	Black America	NA	NA	[40.39827,-92.197862]		Location
 Madrid	Madrid	NA	NA	[40.416775,-3.70379]		Location
-Sagasta	Sagasta	NA	NA	[40.428009,-3.698485]		Location
+Sagasta	Sagasta	NA	NA	[]		Location
 Pittsburg	Pittsburg	NA	NA	[40.440625,-79.995886]		Location
 Pittsburgh	Pittsburgh	NA	NA	[40.440625,-79.995886]		Location
 Allegheny	Allegheny	NA	NA	[40.445081,-80.008775]		Location
@@ -1336,7 +1336,7 @@ Saskatchewan	Saskatchewan	NA	NA	[52.939916,-106.450864]		Region
 Quebec	Quebec	NA	NA	[52.939916,-73.549136]		Region
 Bremen	Bremen	NA	NA	[53.079296,8.801694]		Location
 Oldenburg	Oldenburg	NA	NA	[53.14345,8.214552]		Location
-Samar	Samar	NA	NA	[53.233333,50.166667]		Location
+Samar	Samar	NA	NA	[11.932458,125.038816]		Location
 Liverpool	Liverpool	NA	NA	[53.408371,-2.991573]		Location
 Ireland	Ireland	NA	Ireland	[53.41291,-8.24389]		Country
 Borkum Emden	Borkum Emden	NA	NA	[53.443578,6.972957]		Location
