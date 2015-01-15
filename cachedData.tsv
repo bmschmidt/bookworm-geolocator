@@ -460,8 +460,8 @@ Galvezton	Galvezton	NA	NA	[29.301348,-94.797696]		Location
 Kuwait	Kuwait	NA	Kuwait	[29.31166,47.481766]		Country
 San Antonio	San Antonio	NA	NA	[29.424122,-98.493628]		Location
 Sitana	Sitana	NA	NA	[29.449149,76.898758]		Location
-Dixie	Dixie	NA	NA	[29.520723,-83.1649]		Location
-Presquille	Presquille	NA	NA	[29.563826,-90.6462]		Location
+Dixie	Dixie	NA	NA	[33.897777,-85.255738]		Location
+Presquille	Presquille	NA	NA	[42.16094,-80.117634]		Location
 Morgan City	Morgan City	NA	NA	[29.699375,-91.20677]		Location
 French Chambers	French Chambers	NA	NA	[29.700329,-94.363599]		Location
 Atchafalaya River	Atchafalaya River	NA	NA	[29.748749,-91.202521]		Location
@@ -608,7 +608,7 @@ French North Africa	French North Africa	NA	NA	[28.033886,1.659626]		Location
 Watts	Watts	NA	NA	[33.938636,-118.238043]		Location
 Afghan	Afghan	NA	Afghan	[33.93911,67.709953]		Country
 Afghanistan	Afghanistan	NA	Afghanistan	[33.93911,67.709953]		Country
-Perthshire	Perthshire	NA	NA	[33.977331,-90.912328]		Region
+Perthshire	Perthshire	NA	NA	[]		Region
 Whittier	Whittier	NA	NA	[33.979179,-118.032844]		Location
 Asia	Asia	NA	NA	[34.047863,100.619655]		Continent
 Asian	Asian	NA	NA	[34.047863,100.619655]		Continent
@@ -845,7 +845,7 @@ TURKEY	TURKEY	NA	TURKEY	[38.963745,35.243322]		Country
 Turkey	Turkey	NA	Turkey	[38.963745,35.243322]		Country
 Turkish	Turkish	NA	Turkish	[38.963745,35.243322]		Country
 Annapolis	Annapolis	NA	NA	[38.978445,-76.492183]		Location
-Ruatan	Ruatan	NA	NA	[38.997597,-76.98118]		Location
+Ruatan	Ruatan	NA	NA	[16.341885,-86.529808]		Location
 Great Falls of the Potomac	Great Falls of the Potomac	NA	NA	[38.998165,-77.288316]		Location
 Kans.	Kans.	Kans.	NA	[39.011902,-98.484246]		State
 Kansas	Kansas	Kansas	NA	[39.011902,-98.484246]		State
@@ -863,7 +863,7 @@ Fort Riley	Fort Riley	NA	NA	[39.112072,-96.815965]		Location
 Fort Miami	Fort Miami	NA	NA	[39.119502,-84.81245]		Location
 Delaware Bay	Delaware Bay	NA	NA	[39.120171,-75.247906]		Location
 Walnut Hills	Walnut Hills	NA	NA	[32.336111,-90.875278]		Location
-Colerain	Colerain	NA	NA	[39.259177,-84.626982]		Location
+Colerain	Colerain	NA	NA	[30.833011,-81.900667]		Location
 Sutro Tunnel	Sutro Tunnel	NA	NA	[39.279162,-119.583624]		Location
 Oconee	Oconee	NA	NA	[39.285598,-89.107579]		Location
 Baltimore	Baltimore	NA	NA	[39.290385,-76.612189]		Location
@@ -936,7 +936,7 @@ Indiana Territory	Indiana Territory	Indiana Territory	NA	[40.267194,-86.134902]	
 North Korea	North Korea	NA	North Korea	[40.339852,127.510093]		Country
 North Korean	North Korean	NA	North Korean	[40.339852,127.510093]		Country
 Steubenville	Steubenville	NA	NA	[40.369791,-80.633964]		Location
-Black America	Black America	NA	NA	[40.39827,-92.197862]		Location
+Black America	Black America	NA	NA	[]		Location
 Madrid	Madrid	NA	NA	[40.416775,-3.70379]		Location
 Sagasta	Sagasta	NA	NA	[]		Location
 Pittsburg	Pittsburg	NA	NA	[40.440625,-79.995886]		Location
@@ -995,7 +995,7 @@ Bosphorus	Bosphorus	NA	NA	[41.119444,29.075278]		Location
 Cheyenne	Cheyenne	NA	NA	[41.139981,-104.820246]		Location
 Luzerne County	Luzerne County	NA	NA	[41.140435,-75.992765]		Location
 Albania	Albania	NA	Albania	[41.153332,20.168331]		Country
-Churchill	Churchill	NA	NA	[41.162002,-80.664798]		Location
+Churchill	Churchill	NA	NA	[]		Location
 Hudson River	Hudson River	NA	NA	[41.189608,-73.924225]		Location
 Pennsylvania	Pennsylvania	Pennsylvania	NA	[41.203322,-77.194525]		State
 Pa.	Pa.	Pa.	NA	[41.203322,-77.194525]		State
@@ -1096,7 +1096,7 @@ Tropics	Tropics	NA	NA	[42.962921,-85.705232]		Location
 Welland Canal	Welland Canal	NA	NA	[42.994595,-79.248858]		Location
 Fort Randall	Fort Randall	NA	NA	[43.02444,-98.624251]		Location
 Milwaukee	Milwaukee	NA	NA	[43.038903,-87.906474]		Location
-Pacific Islands	Pacific Islands	NA	NA	[43.0405,-87.921625]		Location
+Pacific Islands	Pacific Islands	NA	NA	[-0.35156,-123.105476]		Location
 Arapahoe Reservation	Arapahoe Reservation	NA	NA	[43.04808,-108.361383]		Location
 Navy Island	Navy Island	NA	NA	[43.057851,-79.010821]		Location
 Wyoming	Wyoming	Wyoming	NA	[43.075968,-107.290284]		State
@@ -1128,7 +1128,7 @@ La Crosse	La Crosse	NA	NA	[43.801356,-91.239581]		Location
 Oreg.	Oreg.	Oreg.	NA	[43.804133,-120.554201]		State
 Oregon	Oregon	Oregon	NA	[43.804133,-120.554201]		State
 Sarajevo	Sarajevo	NA	NA	[43.856259,18.413076]		Location
-Rhine	Rhine	NA	NA	[43.862772,-87.95676]		Region
+Rhine	Rhine	NA	NA	[49.345124,7.866923]		Region
 New England	New England	NA	NA	[43.965389,-70.822654]		Region
 New England States	New England States	NA	NA	[43.965389,-70.822654]		Region
 New England States        Middle States	New England States        Middle States	NA	NA	[43.965389,-70.822654]		Region
@@ -1144,7 +1144,7 @@ White Mountain	White Mountain	NA	NA	[44.144882,-71.368141]		Region
 White Mountains	White Mountains	NA	NA	[44.144882,-71.368141]		Region
 Michigan	Michigan	Michigan	NA	[44.314844,-85.602364]		State
 Michigan Territory	Michigan Territory	Michigan Territory	NA	[44.314844,-85.602364]		State
-Volga	Volga	NA	NA	[44.32358,-96.926448]		Location
+Volga	Volga	NA	NA	[46.697127,47.306401]		Location
 Castine	Castine	NA	NA	[44.388861,-68.798958]		Location
 Bucharest	Bucharest	NA	NA	[44.4325,26.103889]		Location
 Penobscot	Penobscot	NA	NA	[44.445518,-68.817802]		Location
@@ -1167,14 +1167,14 @@ Dakota	Dakota	NA	NA	[44.731554,-93.177966]		Region
 Dakota Territory	Dakota Territory	NA	NA	[44.731554,-93.177966]		Region
 Lake Ontario	Lake Ontario	NA	NA	[44.766667,-77.883333]		Region
 Bay of Fundy	Bay of Fundy	NA	NA	[44.772849,-66.309551]		Region
-Danube	Danube	NA	NA	[44.791905,-95.097225]		Region
+Danube	Danube	NA	NA	[46.322341,19.13033]		Region
 St. Paul	St. Paul	NA	NA	[44.953703,-93.089958]		Location
 Lake Memphramagog	Lake Memphramagog	NA	NA	[44.970884,-72.222416]		Location
 Passamaquoddy	Passamaquoddy	NA	NA	[45.029377,-67.074394]		Region
 Passamaquoddy Bay	Passamaquoddy Bay	NA	NA	[45.029377,-67.074394]		Region
 Great Lakes	Great Lakes	NA	NA	[45.052237,-82.484612]		Region
 Lake Huron	Lake Huron	NA	NA	[45.052237,-82.484612]		Region
-St. Andrew's	St. Andrew's	NA	NA	[45.05982,-92.947833]		Location
+St. Andrew's	St. Andrew's	NA	NA	[45.091254,-66.964833]		Location
 Turin	Turin	NA	NA	[45.070982,7.685676]		Location
 St. Marys River	St. Marys River	NA	NA	[45.080851,-61.93302]		Location
 St. John River	St. John River	NA	NA	[45.30826,-66.164001]		Location
