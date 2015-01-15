@@ -583,8 +583,8 @@ Coosa River	Coosa River	NA	NA	[33.381502,-85.850042]		Location
 San Clemente	San Clemente	NA	NA	[33.426973,-117.611992]		Location
 Phoenix	Phoenix	NA	NA	[33.448377,-112.074037]		Location
 Boulder Canyon	Boulder Canyon	NA	NA	[33.47539,-111.675395]		Location
-Atlantic States	Atlantic States	NA	NA	[33.481635,-117.715631]		Region
-South Atlantic States	South Atlantic States	NA	NA	[33.481635,-117.715631]		Region
+Atlantic States	Atlantic States	NA	NA	[37.087082,-76.473012]		Region
+South Atlantic States	South Atlantic States	NA	NA	[37.087082,-76.473012]		Region
 Damascus	Damascus	NA	NA	[33.5111,36.3064]		Location
 Birmingham	Birmingham	NA	NA	[33.520661,-86.80249]		Location
 Casablanca	Casablanca	NA	NA	[33.533333,-7.583333]		Location
@@ -627,7 +627,7 @@ Samarra	Samarra	NA	NA	[34.19421,43.874931]		Location
 Navassa	Navassa	NA	NA	[34.255447,-78.007491]		Location
 Shensi	Shensi	NA	NA	[34.265472,108.954239]		Location
 Hot Springs	Hot Springs	NA	NA	[34.5037,-93.05518]		Location
-Ricaree	Ricaree	NA	NA	[34.511949,-117.2219]		Location
+Ricaree	Ricaree	NA	NA	[40.676575,-95.859362]		Location
 New Mexico	New Mexico	New Mexico	NA	[34.51994,-105.87009]		State
 Kabul	Kabul	NA	NA	[34.528455,69.171703]		Location
 Mediterranean	Mediterranean	NA	NA	[34.553128,18.048011]		Ocean
@@ -689,7 +689,7 @@ Korean	Korean	NA	Korean	[35.907757,127.766922]		Country
 South Korea	South Korea	NA	South Korea	[35.907757,127.766922]		Country
 Illinois River	Illinois River	NA	NA	[35.907919,-94.290674]		Region
 Tahlequah	Tahlequah	NA	NA	[35.91537,-94.969956]		Location
-Amistad	Amistad	NA	NA	[35.918926,-103.15383]		Location
+Amistad	Amistad	NA	NA	[]		Location
 Holston	Holston	NA	NA	[35.959167,-83.850278]		Location
 Knoxville	Knoxville	NA	NA	[35.960638,-83.920739]		Location
 Minneapolis	Minneapolis	NA	NA	[36.099292,-81.987061]		Location
@@ -886,7 +886,7 @@ Langfang	Langfang	NA	NA	[39.538047,116.683752]		Location
 Colorado	Colorado	Colorado	NA	[39.550051,-105.782067]		State
 COLORADO	COLORADO	COLORADO	NA	[39.550051,-105.782067]		State
 Colorado	Colorado	Colorado	NA	[39.550051,-105.782067]		State
-Meridian Hill	Meridian Hill	NA	NA	[39.556378,-105.486387]		Location
+Meridian Hill	Meridian Hill	NA	NA	[38.920822,-77.035714]		Location
 Delaware River	Delaware River	NA	NA	[39.573802,-75.539315]		Region
 Jefferson	Jefferson	NA	NA	[39.58003,-105.266293]		Location
 Columbine	Columbine	NA	NA	[39.587766,-105.06943]		Location
@@ -1217,8 +1217,8 @@ Montana	Montana	Montana	NA	[46.879682,-110.362566]		State
 Montana Territories	Montana Territories	Montana Territories	NA	[46.879682,-110.362566]		State
 Aspee Bay	Aspee Bay	NA	NA	[46.916667, -60.416667]		Region
 Berne	Berne	NA	NA	[46.947922,7.444608]		Location
-Bulfinchs Harbor	Bulfinchs Harbor	NA	NA	[46.950556,�-124.051111]		Location
-Wye	Wye	NA	NA	[46.952979,-114.121502]		Location
+Bulfinchs Harbor	Bulfinchs Harbor	NA	NA	[46.950556,-124.051111]		Location
+Wye	Wye	NA	NA	[]		Location
 Kishenef	Kishenef	NA	NA	[47.026859,28.841551]		Location
 Yellow Stone River	Yellow Stone River	NA	NA	[47.037744,-104.763245]		Location
 Austria-Hungary	Austria-Hungary	NA	Austria-Hungary	[47.153716,16.26888]		Country
@@ -1378,7 +1378,7 @@ Copenhagen	Copenhagen	NA	NA	[55.676097,12.568337]		Location
 Kremlin	Kremlin	NA	NA	[55.755826,37.6173]		Location
 Moscow	Moscow	NA	NA	[55.755826,37.6173]		Location
 British America	British America	NA	British America	[56.130366,-106.346771]		Country
-British Isles	British Isles	NA	British Isles	[56.130366,-106.346771]		Country
+British Isles	British Isles	NA	British Isles	[55.378051,-3.435973]		Country
 British North America	British North America	NA	British North America	[56.130366,-106.346771]		Country
 British North American	British North American	NA	British North American	[56.130366,-106.346771]		Country
 Canada	Canada	NA	Canada	[56.130366,-106.346771]		Country
@@ -1431,7 +1431,7 @@ Sweden	Sweden	NA	Sweden	[60.128161,18.643501]		Country
 Helsinki	Helsinki	NA	NA	[60.173324,24.941025]		Location
 Mount St. Elias	Mount St. Elias	NA	NA	[60.293333,-140.929444]		Location
 Norway	Norway	NA	Norway	[60.472024,8.468946]		Country
-Virgin Bay	Virgin Bay	NA	NA	[60.891825,-146.702877]		Location
+Virgin Bay	Virgin Bay	NA	NA	[11.37298,-85.758333]		Location
 Siberia	Siberia	NA	NA	[61.01371,99.196656]		Region
 Glacier Creek	Glacier Creek	NA	NA	[61.454578,-142.380739]		Location
 Russia	Russia	NA	Russia	[61.52401,105.318756]		Country
