@@ -1,4 +1,6 @@
 normed	 toponymName	 adminName1	 countryName	geo	 geonameId	fclName
+Austro-Hungarian	NA	NA	[47.153716,16.26888]		Country
+Central Empires	NA	NA	[47.153716,16.26888]		Country
 Quito	Quito	NA	NA	[-0.148303,-78.445438]	NA	Location
 Congo	Congo	NA	Congo	[-0.228021,15.827659]		Country
 Kongo	Kongo	NA	Kongo	[-0.228021,15.827659]		Country
@@ -696,6 +698,7 @@ Minneapolis	Minneapolis	NA	NA	[36.099292,-81.987061]		Location
 Bay of Gibraltar	Bay of Gibraltar	NA	NA	[36.138798,-5.399965]		Location
 Gibraltar	Gibraltar	NA	NA	[36.140751,-5.353585]		Location
 Japan	Japan	NA	Japan	[36.204824,138.252924]		Country
+Island Empire	Island Empire	NA	Island Empire	[36.204824,138.252924]		Country
 Markham Ferry	Markham Ferry	NA	NA	[36.233427,-95.181908]		Location
 Colorado River	Colorado River	NA	NA	[36.243085,-112.358718]		Region
 Colorado Rivers	Colorado Rivers	NA	NA	[36.243085,-112.358718]		Region
@@ -844,6 +847,8 @@ Turkey	Turkey	NA	Turkey	[38.963745,35.243322]		Country
 TURKEY	TURKEY	NA	TURKEY	[38.963745,35.243322]		Country
 Turkey	Turkey	NA	Turkey	[38.963745,35.243322]		Country
 Turkish	Turkish	NA	Turkish	[38.963745,35.243322]		Country
+Ottoman Empire	NA	NA	[38.963745,35.243322]		Country
+Turkish Empire	NA	NA	[38.963745,35.243322]		Country
 Annapolis	Annapolis	NA	NA	[38.978445,-76.492183]		Location
 Ruatan	Ruatan	NA	NA	[16.341885,-86.529808]		Location
 Great Falls of the Potomac	Great Falls of the Potomac	NA	NA	[38.998165,-77.288316]		Location
@@ -1440,6 +1445,7 @@ Russia	Russia	NA	Russia	[61.52401,105.318756]		Country
 RUSSIA	RUSSIA	NA	RUSSIA	[61.52401,105.318756]		Country
 Russia	Russia	NA	Russia	[61.52401,105.318756]		Country
 Russian	Russian	NA	Russian	[61.52401,105.318756]		Country
+Russian Empire	NA	NA	[61.52401,105.318756]		Country
 Russians	Russians	NA	Russians	[61.52401,105.318756]		Country
 Soviet	Soviet	NA	Soviet	[61.52401,105.318756]		Country
 Soviet Russia	Soviet Russia	NA	Soviet Russia	[61.52401,105.318756]		Country
