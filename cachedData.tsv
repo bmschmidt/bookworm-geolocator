@@ -1,11 +1,11 @@
 normed	 toponymName	 adminName1	 countryName	geo	 geonameId	fclName
-Puget Sound	NA	NA	NA	[47.932225,-122.508582]		Location
-Pugets Sound	NA	NA	NA	[47.932225,-122.508582]		Location
-Germanic States	NA	NA	NA	[51.165691,10.451526]		Country
-Zollverein	NA	NA	NA	[51.165691,10.451526]		Country
-Bryarlys Landing	NA	NA	NA	[33.746497,-94.890774]		Location
-Austro-Hungarian	NA	NA		[47.153716,16.26888]		Country
-Central Empires	NA	NA		[47.153716,16.26888]		Country
+Puget Sound	Puget Sound	NA	NA	[47.932225,-122.508582]		Location
+Pugets Sound	Pugets Sound	NA	NA	[47.932225,-122.508582]		Location
+Germanic States	Germanic States	NA	NA	[51.165691,10.451526]		Country
+Zollverein	Zollverein	NA	NA	[51.165691,10.451526]		Country
+Bryarlys Landing	Bryarlys Landing	NA	NA	[33.746497,-94.890774]		Location
+Austro-Hungarian	Austro-Hungarian	NA		[47.153716,16.26888]		Country
+Central Empires	Central Empires	NA		[47.153716,16.26888]		Country
 Quito	Quito	NA	NA	[-0.148303,-78.445438]	NA	Location
 Congo	Congo	NA	Congo	[-0.228021,15.827659]		Country
 Kongo	Kongo	NA	Kongo	[-0.228021,15.827659]		Country
