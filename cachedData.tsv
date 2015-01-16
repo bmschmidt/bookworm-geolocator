@@ -23,6 +23,8 @@ Angola	Angola	NA	Angola	[-11.202692,17.873887]		Country
 Lima	Lima	NA	NA	[-12.047816,-77.062203]		Location
 Salvador	Salvador	NA	NA	[-12.972229,-38.50142]		Location
 Zambia	Zambia	NA	Zambia	[-13.133897,27.849332]		Country
+Zaca Lake Reserve	NA	NA	NA	[34.778086,-120.040938]		Location
+Valley Forge	Valley Forge	NA	NA	[40.096944,-75.439167]		Location
 Chincha Islands	Chincha Islands	NA	NA	[-13.633333,-76.416667]		Location
 Samoa	Samoa	NA	Samoa	[-13.759029,-172.104629]		Country
 Samoan	Samoan	NA	Samoan	[-13.759029,-172.104629]		Country
@@ -40,7 +42,9 @@ American Samoa	American Samoa	NA	American Samoa	[-14.305941,-170.6962]		Country
 Bolivia	Bolivia	NA	Bolivia	[-16.290154,-63.588653]		Country
 Bolivian Republic	Bolivian Republic	NA	Bolivian Republic	[-16.290154,-63.588653]		Country
 Central American States	Central American States	NA	Central American States	[-18.116944,178.43948]		Country
+United States of Central America	NA	NA	NA	[-18.116944,178.43948]		Country
 Tamatav	Tamatav	NA	NA	[-18.1499,49.402309]		Location
+Staten	Staten	NA	NA	[40.576281,-74.144839]		Location
 Tacna-Arica	Tacna-Arica	NA	NA	[-18.477044,-70.314533]		Region
 Portuguese South Africa	Portuguese South Africa	NA	Portuguese South Africa	[-18.665695,35.529562]		Country
 Mozambique	Mozambique	NA	Mozambique	[-18.665695,35.529562]		Country
@@ -291,6 +295,7 @@ Virgin Islands	Virgin Islands	NA	Virgin Islands	[18.335765,-64.896335]		Country
 San Juan	San Juan	NA	NA	[18.466334,-66.105722]		Location
 San Juan de Puerto Rico	San Juan de Puerto Rico	NA	NA	[18.466334,-66.105722]		Location
 Santo Domingo	Santo Domingo	NA	NA	[18.5,-69.983333]		Location
+Republic of Santo Domingo	NA	NA	[18.5,-69.983333]		Location
 Ozama	Ozama	NA	NA	[18.514648,-69.872614]		Location
 Ozama River	Ozama River	NA	NA	[18.516726,-69.89748]		Region
 Port-au-Prince	Port-au-Prince	NA	NA	[18.539269,-72.336408]		Location
@@ -364,6 +369,7 @@ Cuba	Cuba	NA	Cuba	[21.521757,-77.781167]		Country
 CUBA	CUBA	NA	CUBA	[21.521757,-77.781167]		Country
 Cuba	Cuba	NA	Cuba	[21.521757,-77.781167]		Country
 Cuban	Cuban	NA	Cuban	[21.521757,-77.781167]		Country
+Cubans	Cubans	NA	Cubans	[21.521757,-77.781167]		Country
 Americas	Americas	NA	NA	[21.657428,-94.797364]		Region
 Western Hemisphere	Western Hemisphere	NA	NA	[21.657428,-94.797364]		Region
 Caicos Islands	Caicos Islands	NA	NA	[21.712127,-71.619869]		Region
@@ -436,6 +442,7 @@ Tampa	Tampa	NA	NA	[27.950575,-82.457178]		Location
 Everest	Everest	NA	NA	[27.985818,86.923596]		Location
 Lower California	Lower California	NA	NA	[28,-113.5]		Region
 Barbary States	Barbary States	NA	Barbary States	[28.033886,1.659626]		Country
+Barbary	Barbary	NA	NA	[28.033886,1.659626]		Country
 Algeria	Algeria	NA	Algeria	[28.033886,1.659626]		Country
 Chilkoot	Chilkoot	NA	NA	[28.044949,-82.400353]		Location
 Hunan	Hunan	NA	NA	[28.112444,112.98381]		Region
@@ -799,6 +806,7 @@ Harpoot	Harpoot	NA	NA	[38.49648,39.219903]		Location
 Allegany Mountains	Allegany Mountains	NA	NA	[38.573928,-79.700709]		Region
 Alleghany Mountains	Alleghany Mountains	NA	NA	[38.573928,-79.700709]		Region
 Allegheny Mountain	Allegheny Mountain	NA	NA	[38.573928,-79.700709]		Region
+Ghent	NA	NA	NA	[51.05,3.733333]		Location
 Sacramento	Sacramento	NA	NA	[38.581572,-121.4944]		Location
 West Virginia	West Virginia	West Virginia	NA	[38.597626,-80.454903]		State
 Maysville	Maysville	NA	NA	[38.601162,-83.549657]		Location
@@ -844,6 +852,7 @@ Turkey	Turkey	NA	Turkey	[38.963745,35.243322]		Country
 TURKEY	TURKEY	NA	TURKEY	[38.963745,35.243322]		Country
 Turkey	Turkey	NA	Turkey	[38.963745,35.243322]		Country
 Turkish	Turkish	NA	Turkish	[38.963745,35.243322]		Country
+Asia Minor	Asia Minor	NA	NA	[38.963745,35.243322]		Country
 Annapolis	Annapolis	NA	NA	[38.978445,-76.492183]		Location
 Ruatan	Ruatan	NA	NA	[38.997597,-76.98118]		Location
 Great Falls of the Potomac	Great Falls of the Potomac	NA	NA	[38.998165,-77.288316]		Location
@@ -962,6 +971,7 @@ Governors Island	Governors Island	NA	NA	[40.68945,-74.016792]		Location
 Union	Union	NA	NA	[40.69759,-74.263164]		Location
 Ellis Island	Ellis Island	NA	NA	[40.699472,-74.03956]		Location
 New York	New York	NA	NA	[40.714353,-74.005973]		Location
+NY	NY	NA	NA	[[40.714353,-74.005973]		Location]
 New York City	New York City	NA	NA	[40.714353,-74.005973]		Location
 Wall Street	Wall Street	NA	NA	[40.714353,-74.005973]		Location
 Newark	Newark	NA	NA	[40.735657,-74.172367]		Location
@@ -1015,6 +1025,7 @@ Narraganset Bay	Narraganset Bay	NA	NA	[41.450084,-71.449503]		Location
 Narragansett	Narragansett	NA	NA	[41.450084,-71.449503]		Location
 Latin	Latin	NA	NA	[41.467567,12.903597]		Location
 Nebr.	Nebr.	Nebr.	NA	[41.492537,-99.901813]		State
+Mount Vernon Barracks	Mount Vernon Barracks	NA	NA	[31.087778,-88.028611]		Location
 Nebraska	Nebraska	Nebraska	NA	[41.492537,-99.901813]		State
 Cleveland	Cleveland	NA	NA	[41.499495,-81.695409]		Location
 Rock Island	Rock Island	NA	NA	[41.509477,-90.578748]		Location
@@ -1023,6 +1034,7 @@ Buzzards Bay	Buzzards Bay	NA	NA	[41.529275,-70.835779]		Location
 Fort Meigs	Fort Meigs	NA	NA	[41.549881,-83.65395]		Location
 Missouri Valley	Missouri Valley	NA	NA	[41.556371,-95.887777]		Location
 Ohio	Ohio	Ohio	NA	[40.417287,-82.907123]		State
+State of Ohio	State of Ohio	NA	[40.417287,-82.907123]		State
 Rhode Island	Rhode Island	Rhode Island	NA	[41.580095,-71.477429]		State
 Rock Springs	Rock Springs	NA	NA	[41.587464,-109.202904]		Location
 Fort Delaware	Fort Delaware	NA	NA	[41.599162,-75.027666]		Location
@@ -1127,6 +1139,7 @@ Wisconsin	Wisconsin	Wisconsin	NA	[43.78444,-88.787868]		State
 La Crosse	La Crosse	NA	NA	[43.801356,-91.239581]		Location
 Oreg.	Oreg.	Oreg.	NA	[43.804133,-120.554201]		State
 Oregon	Oregon	Oregon	NA	[43.804133,-120.554201]		State
+Oregon Territory	Oregon Territory	NA	NA	[43.804133,-120.554201]		State
 Sarajevo	Sarajevo	NA	NA	[43.856259,18.413076]		Location
 Rhine	Rhine	NA	NA	[43.862772,-87.95676]		Region
 New England	New England	NA	NA	[43.965389,-70.822654]		Region
@@ -1315,6 +1328,8 @@ Rotterdam	Rotterdam	NA	NA	[51.924216,4.481776]		Location
 eastern Europe	eastern Europe	NA	NA	[52.005515,37.958749]		Region
 Eastern Europe	Eastern Europe	NA	NA	[52.005515,37.958749]		Region
 The Hague	The Hague	NA	NA	[52.070498,4.3007]		Location
+Hague	Hague	NA	NA	[52.070498,4.3007]		Location
+Gulf of Alaska	NA	NA	NA	[57,-144]		Location
 Aleutian Islands	Aleutian Islands	NA	NA	[52.096813,-173.500556]		Region
 Wales	Wales	NA	Wales	[52.130661,-3.783712]		Country
 United Netherlands	United Netherlands	NA	United Netherlands	[52.132633,5.291266]		Country
@@ -1333,6 +1348,7 @@ Berlin	Berlin	NA	NA	[52.520007,13.404954]		Location
 West Berlin	West Berlin	NA	NA	[52.520007,13.404954]		Location
 Labrador	Labrador	NA	NA	[52.939001,-66.914216]		Region
 Saskatchewan	Saskatchewan	NA	NA	[52.939916,-106.450864]		Region
+Haro Channel	Haro Channel	NA	NA	[48.55,-123.216667]		Region
 Quebec	Quebec	NA	NA	[52.939916,-73.549136]		Region
 Bremen	Bremen	NA	NA	[53.079296,8.801694]		Location
 Oldenburg	Oldenburg	NA	NA	[53.14345,8.214552]		Location
@@ -1392,6 +1408,7 @@ North Sea	North Sea	NA	NA	[56.511018,3.515625]		Ocean
 Stikine River	Stikine River	NA	NA	[56.563889,-132.404444]		Location
 Latvia	Latvia	NA	Latvia	[56.879635,24.603189]		Country
 Bering Sea	Bering Sea	NA	NA	[56.90728,-178.139472]		Ocean
+Bering Sea Tribunal	NA	NA	NA	[56.90728,-178.139472]		Ocean
 Sitka	Sitka	NA	NA	[57.053056,-135.33]		Location
 Pribilof Islands	Pribilof Islands	NA	NA	[57.4,-170.246667]		Region
 Pribiloff Islands	Pribiloff Islands	NA	NA	[57.4,-170.246667]		Region
@@ -1402,6 +1419,7 @@ Estonia	Estonia	NA	Estonia	[58.595272,25.013607]		Country
 Lynn Canal	Lynn Canal	NA	NA	[58.691944,-135.114167]		Location
 Yukon River	Yukon River	NA	NA	[59.10,-133.5]		Region
 Yukon Valley	Yukon Valley	NA	NA	[59.10,-133.5]		Region
+Yukon	Yukon	NA	NA	[64,-135]		Region
 Orkney Islands	Orkney Islands	NA	NA	[59.1573,-2.931222]		Region
 Stockholm	Stockholm	NA	NA	[59.32893,18.06491]		Location
 Klukwan	Klukwan	NA	NA	[59.403889,-135.884444]		Location
@@ -1422,6 +1440,7 @@ LIBERIA	LIBERIA	NA	LIBERIA	[6.428055,-9.429499]		Country
 Liberia	Liberia	NA	Liberia	[6.428055,-9.429499]		Country
 LIBERIA	LIBERIA	NA	LIBERIA	[6.428055,-9.429499]		Country
 Liberia	Liberia	NA	Liberia	[6.428055,-9.429499]		Country
+Liberian	Liberian	NA	Liberian	[6.428055,-9.429499]		Country
 Yara	Yara	NA	NA	[6.541147,101.280395]		Location
 British Guiana	British Guiana	NA	British Guiana	[6.818835,-58.164115]		Country
 Ponape	Ponape	NA	NA	[6.854125,158.262382]		Location
@@ -1494,6 +1513,7 @@ Panama	Panama	NA	Panama	[8.994269,-79.518792]		Country
 Lady Franklin Bay	Lady Franklin Bay	NA	NA	[81.666667,-65]		Location
 Isthmian Canal	Isthmian Canal	NA	NA	[9.057402,-79.657929]		Region
 Panama Canal	Panama Canal	NA	NA	[9.057402,-79.657929]		Region
+Panama Railroad	Panama Railroad	NA	NA	[9.057402,-79.657929]		Region
 Nigeria	Nigeria	NA	Nigeria	[9.081999,8.675277]		Country
 Chagres	Chagres	NA	NA	[9.121446,-80.120526]		Location
 Horn of Africa	Horn of Africa	NA	NA	[9.130378,41.280858]		Region
