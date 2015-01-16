@@ -1,4 +1,9 @@
 normed	 toponymName	 adminName1	 countryName	geo	 geonameId	fclName
+Puget Sound	NA	NA	NA	[47.932225,-122.508582]		Location
+Pugets Sound	NA	NA	NA	[47.932225,-122.508582]		Location
+Germanic States	NA	NA	NA	[51.165691,10.451526]		Country
+Zollverein	NA	NA	NA	[51.165691,10.451526]		Country
+Bryarlys Landing	NA	NA	NA	[33.746497,-94.890774]		Location
 Austro-Hungarian	NA	NA		[47.153716,16.26888]		Country
 Central Empires	NA	NA		[47.153716,16.26888]		Country
 Quito	Quito	NA	NA	[-0.148303,-78.445438]	NA	Location
@@ -140,6 +145,7 @@ South American	South American	NA	NA	[-8.783195,-55.491477]		Continent
 South American Republics	South American Republics	NA	NA	[-8.783195,-55.491477]		Continent
 South American States	South American States	NA	NA	[-8.783195,-55.491477]		Continent
 Southern America	Southern America	NA	NA	[-8.783195,-55.491477]		Region
+southern Republics	southern Republics	NA	NA	[-8.783195,-55.491477]		Continent
 Fuca	Fuca	NA	NA	[48.285870,-123.366623]		Location
 East Timor	East Timor	NA	East Timor	[-8.874217,125.727539]		Country
 Antarctic	Antarctic	NA	NA	[-82.862752,-135]		Continent
@@ -438,6 +444,7 @@ Tampa	Tampa	NA	NA	[27.950575,-82.457178]		Location
 Everest	Everest	NA	NA	[27.985818,86.923596]		Location
 Lower California	Lower California	NA	NA	[28,-113.5]		Region
 Barbary States	Barbary States	NA	Barbary States	[28.033886,1.659626]		Country
+Barbary Powers	Barbary Powers	NA	Barbary Powers	[28.033886,1.659626]		Country
 Algeria	Algeria	NA	Algeria	[28.033886,1.659626]		Country
 Chilkoot	Chilkoot	NA	NA	[28.044949,-82.400353]		Location
 Hunan	Hunan	NA	NA	[28.112444,112.98381]		Region
@@ -1061,6 +1068,7 @@ Plymouth	Plymouth	NA	NA	[41.958446,-70.667262]		Location
 Plymouth Beach	Plymouth Beach	NA	NA	[41.958446,-70.667262]		Location
 Nevada	Nevada	Nevada	NA	[38.80261,-116.419389]		State
 Rocky Mountains	Rocky Mountains	NA	NA	[42.032974,-109.70215]		Region
+Rocky mountains	Rocky mountains	NA	NA	[42.032974,-109.70215]		Region
 Detroit River	Detroit River	NA	NA	[42.063134,-83.175619]		Region
 Lake Erie	Lake Erie	NA	NA	[42.066885,-81.339941]		Region
 Springfield	Springfield	NA	NA	[42.101483,-72.589811]		Location
@@ -1238,6 +1246,7 @@ Southwest	Southwest	NA	NA	[35.822139, -108.201361]		Region
 Seattle	Seattle	NA	NA	[47.60621,-122.332071]		Location
 Bellevue	Bellevue	NA	NA	[47.610377,-122.200679]		Location
 Atlantic Coast	Atlantic Coast	NA	NA	[47.610574,-122.336458]		Region
+eastern coast of America	eastern coast of America	NA	NA	[47.610574,-122.336458]		Region
 Atlantic Community	Atlantic Community	NA	NA	[47.610574,-122.336458]		Region
 Atlantic Seaboard	Atlantic Seaboard	NA	NA	[47.610574,-122.336458]		Region
 Lake Superior	Lake Superior	NA	NA	[47.723087,-86.940716]		Region
@@ -1397,6 +1406,7 @@ North Sea	North Sea	NA	NA	[56.511018,3.515625]		Ocean
 Stikine River	Stikine River	NA	NA	[56.563889,-132.404444]		Location
 Latvia	Latvia	NA	Latvia	[56.879635,24.603189]		Country
 Bering Sea	Bering Sea	NA	NA	[56.90728,-178.139472]		Ocean
+Behrings Straits	NA	NA	NA	[65.893813,-168.395396]		Location
 Sitka	Sitka	NA	NA	[57.053056,-135.33]		Location
 Pribilof Islands	Pribilof Islands	NA	NA	[57.4,-170.246667]		Region
 Pribiloff Islands	Pribiloff Islands	NA	NA	[57.4,-170.246667]		Region
