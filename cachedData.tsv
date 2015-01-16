@@ -392,6 +392,7 @@ Canton River	Canton River	NA	NA	[23.129163,113.264435]		Location
 North Africa	North Africa	NA	NA	[23.416203,25.66283]		Region
 Muscat	Muscat	NA	NA	[23.61,58.54]		Location
 Taiwan	Taiwan	NA	Taiwan	[23.69781,120.960515]		Country
+Formosa	Formosa	NA	Formosa	[23.69781,120.960515]		Country
 Sahara	Sahara	NA	NA	[23.803497,11.291889]		region
 Saudi	Saudi	NA	Saudi	[23.885942,45.079162]		Country
 Saudi Arabia	Saudi Arabia	NA	Saudi Arabia	[23.885942,45.079162]		Country
@@ -445,6 +446,7 @@ Everest	Everest	NA	NA	[27.985818,86.923596]		Location
 Lower California	Lower California	NA	NA	[28,-113.5]		Region
 Barbary States	Barbary States	NA	Barbary States	[28.033886,1.659626]		Country
 Barbary Powers	Barbary Powers	NA	Barbary Powers	[28.033886,1.659626]		Country
+coast of Barbary	coast of Barbary	NA	coast of Barbary	[28.033886,1.659626]		Country
 Algeria	Algeria	NA	Algeria	[28.033886,1.659626]		Country
 Chilkoot	Chilkoot	NA	NA	[28.044949,-82.400353]		Location
 Hunan	Hunan	NA	NA	[28.112444,112.98381]		Region
@@ -1288,6 +1290,7 @@ New Granada	New Granada	NA	NA	[5.577717,-75.196838]		Region
 New Grenada	New Grenada	NA	NA	[5.577717,-75.196838]		Region
 Paramaribo	Paramaribo	NA	NA	[5.823201,-55.16788]		Location
 Jaluit	Jaluit	NA	NA	[5.837937,169.620733]		Location
+Java	Java	NA	NA	[-7.614529,110.712246]		Region
 Jolo	Jolo	NA	NA	[5.969181,121.125213]		Region
 Sulu	Sulu	NA	NA	[5.974901,121.03351]		Region
 Sulu Islands	Sulu Islands	NA	NA	[5.974901,121.03351]		Region
@@ -1410,6 +1413,7 @@ Behrings Straits	NA	NA	NA	[65.893813,-168.395396]		Location
 Sitka	Sitka	NA	NA	[57.053056,-135.33]		Location
 Pribilof Islands	Pribilof Islands	NA	NA	[57.4,-170.246667]		Region
 Pribiloff Islands	Pribiloff Islands	NA	NA	[57.4,-170.246667]		Region
+Balearic	Balearic	NA	NA	[39.5,3]		Region
 Afognak Forest	Afognak Forest	NA	NA	[58.327945,-152.64146]		Location
 Baltic Sound	Baltic Sound	NA	NA	[58.487952,19.863281]		Ocean
 Baltic Sea	Baltic Sea	NA	NA	[58.487952,19.863281]		Ocean
@@ -1490,6 +1494,7 @@ SPITZBERGEN	SPITZBERGEN	NA	SPITZBERGEN	[78.647932,18.164125]		Country
 Spitzbergen	Spitzbergen	NA	Spitzbergen	[78.647932,18.164125]		Country
 Spitzbergen Islands	Spitzbergen Islands	NA	Spitzbergen Islands	[78.647932,18.164125]		Country
 East Indies	East Indies	NA	NA	[8.407168,95.566399]		Region
+the Orient	the Orient	NA	NA	[14.264383,113.715813]		Region
 Sierra Leone	Sierra Leone	NA	Sierra Leone	[8.460555,-11.779889]		Country
 Mindanao	Mindanao	NA	NA	[8.49613,123.303406]		Location
 Togo	Togo	NA	Togo	[8.619543,0.824782]		Country
