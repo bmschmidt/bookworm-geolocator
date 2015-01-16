@@ -1,5 +1,5 @@
 normed	 toponymName	 adminName1	 countryName	geo	 geonameId	fclName
-Michilimackinac	Michilimackinac	NA	NA	[45.786667,-84.735978]		Location
+Michilimackinac	Michilimackinac	NA	NA	[45.786667,-84.735978]		Locations
 Puget Sound	Puget Sound	NA	NA	[47.932225,-122.508582]		Location
 Pugets Sound	Pugets Sound	NA	NA	[47.932225,-122.508582]		Location
 Germanic States	Germanic States	NA	NA	[51.165691,10.451526]		Country
@@ -280,7 +280,8 @@ Rangoon	Rangoon	NA	NA	[16.8,96.15]		Location
 Acapulco	Acapulco	NA	NA	[16.863794,-99.881614]		Location
 Balize	Balize	NA	Balize	[17.189877,-88.49765]		Country
 Mali	Mali	NA	Mali	[17.570692,-3.996166]		Country
-St. Croix	St. Croix	NA	St. Croix	[17.724597,-64.834799]		Country
+St. Croix	St. Croix	NA	St. Croix	[45.5689,-67.4297]		Location
+island of St. Croix	island of St. Croix	NA	NA	[17.739722,-64.738889]		Location
 Guanica	Guanica	NA	NA	[17.969631,-66.910939]		Location
 Guayama	Guayama	NA	NA	[17.984133,-66.113777]		Location
 British Islands	British Islands	NA	NA	[55.378051,-3.435973]		Location
