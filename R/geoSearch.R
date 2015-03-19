@@ -1,11 +1,13 @@
-#' Search on geonames.org for a single word.
+#' Search on geonames.org for a single string.
 #'
 #' @word a string representing a place: the top search result for geonames will
 #' be assigned to it.
 #'
 #' If no results are found, a row will be returned showing the value as "Unknown"
 #' 
+
 geoSearch = function(string) {
+
     tryCatch({
         require(geonames)
         hierarchy = c("P","A","S")
@@ -18,7 +20,6 @@ geoSearch = function(string) {
         }
        
         if (nrow(val)==0) {
-            
             return(data.frame(toponymName="Unknown",adminName1="Unknown",countryName="Unknown",geo="Unknown",geonameId="None",fclName="Unknown"))}
         else {
             return(val %>%

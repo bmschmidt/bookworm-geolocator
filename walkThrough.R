@@ -17,5 +17,16 @@ conf = function(key,frame=config) {
     frame$value[frame$key==key]
 }
 
-geocode(conf("bookwormName"),conf("fieldName"),n=conf("nToAdd"),geonamesid=conf("geonamesID"),file=conf("outputFile"))
-
+#options(geonamesUsername=conf("geonamesID"))
+options("geonamesUsername")
+geocode(
+  db=conf("bookwormName")
+  ,
+  fieldName=conf("fieldName")
+  ,
+  n=conf("nToAdd")
+  ,
+  geonamesid=conf("geonamesID")
+  ,
+  file=conf("outputFile")
+  )

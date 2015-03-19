@@ -13,7 +13,7 @@ geocode = function(
     ,
     fieldName=readline()
     ,
-    n=ifelse(geonameid=="",0,50)
+    n=ifelse(geonamesid=="",0,50)
     ,
     file="geocoded.txt",
     geonamesid=""
@@ -25,7 +25,7 @@ geocode = function(
         places = read.table(db,sep="\t",header=T,stringsAsFactors=F) %>% group_by(fieldName) %>% summarize(count=n())
     } else {
         idField = paste0(fieldName,"__id")
-        search_limits = list(list("$gte"=0)); names(search_limits)= idField
+        search_limits = list(list("$gte"=1)); names(search_limits)= idField
         places = webQuery(host="localhost",
             query=list(database=db,
                 groups=list(fieldName),
@@ -34,7 +34,7 @@ geocode = function(
             )
 
     }
-
+    #options(geonamesUsername=geonamesid)
     grouped = cleanNames(places)
     {#This block matches against cached data, and update the cached data with `n` new results
         cachedData=read.table("cachedData.tsv",sep="\t",header=T,quote="",comment.char="",stringsAsFactors=F)
@@ -43,7 +43,6 @@ geocode = function(
                                         #Make it just one column with no duplicates
             unseen = data.frame(normed=unique(unseen$normed)) %>% as.tbl
                                         #Run a web search for every unseen element
-            cat(unseen$normed)
             newData = unseen %>% head(n) %>% group_by(normed) %>% do(geoSearch(.$normed))
                                         #For each name, we select the following elements
             cachedData = rbind(cachedData,newData)

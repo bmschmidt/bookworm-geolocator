@@ -32,7 +32,9 @@ cleanNames = function(counts) {
     normed = gsub("^(in|In|À|A|U|V|W|Imprinted at|Impresa en|Printed at) ","",normed,perl=T),
     
     normed = gsub(" +$","",normed,perl=T),     
-    normed = gsub("^ +","",normed,perl=T)
+    normed = gsub("^ +","",normed,perl=T),
+    normed = gsub("#"," ",normed,perl=T) #These screw up the queries
+    
   ) %>% 
     group_by(normed) %>% 
     mutate(totalCount = sum(count)) %>% 
