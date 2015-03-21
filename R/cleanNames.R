@@ -51,7 +51,7 @@ cleanNames = function(counts) {
   LOCabbreviations[["Ore."]] = "Oregon"
   
   #Those final periods are optional:
-  names(LOCabbreviations) = gsub("\\.","\\\\.?",names(LOCabbreviations))
+  names(LOCabbreviations) = gsub("\\.$","\\\\.?",names(LOCabbreviations))
   
   for (abbreviation in names(LOCabbreviations)) {
     counts$normed = gsub(paste0(" ", abbreviation, "$"),paste0(" ",LOCabbreviations[[abbreviation]]),counts$normed)
