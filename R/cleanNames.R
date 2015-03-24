@@ -1,7 +1,6 @@
 #' Cleans the names of places according to some regexes that work well on library catalogs. 
 cleanNames = function(counts) {
   
-  
   names(counts) = c("originalName","count")
   
   #This is the stuff that regularizes names through cleaning regexes.
@@ -38,7 +37,7 @@ cleanNames = function(counts) {
   ) %>% 
     group_by(normed) %>% 
     mutate(totalCount = sum(count)) %>% 
-    select(normed,count,totalCount,originalName)  
+    select(normed,count,totalCount,originalName) %>% ungroup
   
   #Some old-style Library of Congress abbreviations for States (in JSON) we want to support: we'll match them at the end of files and replace with the long name.
   
@@ -54,13 +53,12 @@ cleanNames = function(counts) {
   names(LOCabbreviations) = gsub("\\.$","\\\\.?",names(LOCabbreviations))
   
   for (abbreviation in names(LOCabbreviations)) {
-    counts$normed = gsub(paste0(" ", abbreviation, "$"),paste0(" ",LOCabbreviations[[abbreviation]]),counts$normed)
+    counts$normed[grep(abbreviation,counts$normed)] = gsub(paste0(" ", abbreviation, "$"),paste0(" ",LOCabbreviations[[abbreviation]]),counts$normed[grep(abbreviation,counts$normed)])
   }
-  
-  
   
   counts$normed[counts$normed=="Lipsiae"] = "Lipsia"
   counts$normed[counts$normed=="Parisiis"] = "Paris"
   
   return(counts %>% arrange(-count))
+  
 }

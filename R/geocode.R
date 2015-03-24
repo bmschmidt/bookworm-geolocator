@@ -19,30 +19,29 @@ geocode = function(
     geonamesid=""
     ) {
     if (grepl(".(tsv|txt)$",db)) {
-                        #temporary hack:
-
-        
+        #temporary hack allow you to ingest straight from a text file.
         places = read.table(db,sep="\t",header=T,stringsAsFactors=F) %>% group_by(fieldName) %>% summarize(count=n())
     } else {
         idField = paste0(fieldName,"__id")
         search_limits = list(list("$gte"=1)); names(search_limits)= idField
-        places = webQuery(host="localhost",
+	      # pull from localhost.
+        places = webQuery(host="localhost",   
             query=list(database=db,
                 groups=list(fieldName),
                 search_limits = search_limits,
                 counttype=list("TextCount"))
             )
-
     }
-    #options(geonamesUsername=geonamesid)
     grouped = cleanNames(places)
-    {#This block matches against cached data, and update the cached data with `n` new results
+    {
+        #This block matches against cached data, and update the cached data with `n` new results
         cachedData=read.table("cachedData.tsv",sep="\t",header=T,quote="",comment.char="",stringsAsFactors=F)
         if (n>0) { #(If we're checking anything)
             unseen = grouped %>% filter(!normed %in% cachedData$normed)
                                         #Make it just one column with no duplicates
             unseen = data.frame(normed=unique(unseen$normed)) %>% as.tbl
                                         #Run a web search for every unseen element
+            message(paste0("The most common missing location, with ",unseen$count[1]," occurrences, is ",unseen$normed[1],": fetching that and ",n," more")) 
             newData = unseen %>% head(n) %>% group_by(normed) %>% do(geoSearch(.$normed))
                                         #For each name, we select the following elements
             cachedData = rbind(cachedData,newData)
