@@ -8,5 +8,5 @@ geocoded.txt: geolocation.cnf
 	Rscript walkThrough.R
 
 done: geocoded.txt
-	cd ../..; python OneClick.py supplementMetadataFromTSV extensions/bookworm-geolocator/geocoded.txt
+	cd ../..; python OneClick.py supplementMetadataFromTSV extensions/bookworm-geolocator/geocoded.txt; python OneClick.py reloadMemory
 	touch done
