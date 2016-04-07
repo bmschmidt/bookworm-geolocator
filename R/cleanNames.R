@@ -29,10 +29,10 @@ cleanNames = function(counts) {
     normed = gsub("(.*, .*), (USA|UK|United Kingdom)","\\1",normed,perl=T),
     #Drop "in London,", "V Beograd" and so forth.
     normed = gsub("^(in|In|À|A|U|V|W|Imprinted at|Impresa en|Printed at) ","",normed,perl=T),
-    
+    normed = gsub("æ","ae",normed),
     normed = gsub(" +$","",normed,perl=T),     
     normed = gsub("^ +","",normed,perl=T),
-    normed = gsub("#"," ",normed,perl=T) #These screw up the queries
+    normed = gsub("#"," ",normed,perl=T) #These screw up the queries to the geonames server.
     
   ) %>% 
     group_by(normed) %>% 
