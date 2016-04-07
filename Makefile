@@ -7,4 +7,5 @@ geocoded.txt: geolocation.cnf
 	Rscript walkThrough.R
 
 done: geocoded.txt
+	bookworm add_metadata -f geocoded.txt --format=tsv
 	touch done
