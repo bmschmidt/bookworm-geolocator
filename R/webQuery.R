@@ -4,12 +4,12 @@
 #'@host the url of the bookworm being queried
 #'@method Should just be the default
 #'
-webQuery = function(query,host="localhost",method="return_tsv") {
+webQuery = function(query,host="localhost",method="return_tsv", port="8005") {
   require(rjson)
   require(RCurl)  
   query[['method']] =  method
   json = URLencode(toJSON(query))
-  destination = paste(host,"/cgi-bin/dbbindings.py?queryTerms=",json,sep="")
+  destination = paste(host,":",port,"/cgi-bin/dbbindings.py?queryTerms=",json,sep="")
   if (method!="return_tsv") {
     data = scan(textConnection(getURL(destination)),what='raw',quote=NULL)
     data = data[data!="===RESULT==="]

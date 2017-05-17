@@ -19,7 +19,7 @@ geoSearch = function(string) {
             val = GNsearch(q=gsub("ae$","a",string),maxRows=1)
         }
        
-        if (nrow(val)==0) {
+        if (nrow(val)==0 || length(val) < 12) {
             return(data.frame(toponymName="Unknown",adminName1="Unknown",countryName="Unknown",geo="Unknown",geonameId="None",fclName="Unknown"))}
         else {
             return(val %>%

@@ -28,9 +28,9 @@ cleanNames = function(counts) {
     #If it ends in "USA," we don't need the country
     normed = gsub("(.*, .*), (USA|UK|United Kingdom)","\\1",normed,perl=T),
     #Drop "in London,", "V Beograd" and so forth.
-    normed = gsub("^(in|In|À|A|U|V|W|Imprinted at|Impresa en|Printed at) ","",normed,perl=T),
+    normed = gsub("^(in|In|À|A|U|V|W|Imprinted at|Impresa en|Printed at|En) ","",normed,perl=T),
     normed = gsub("æ","ae",normed),
-    normed = gsub(" +$","",normed,perl=T),     
+    normed = gsub("( ?etc)?[ :;,]+$","",normed,perl=T),     
     normed = gsub("^ +","",normed,perl=T),
     normed = gsub("#"," ",normed,perl=T) #These screw up the queries to the geonames server.
     

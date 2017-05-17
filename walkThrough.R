@@ -18,6 +18,7 @@ conf = function(key,frame=config) {
 }
 
 #options(geonamesUsername=conf("geonamesID"))
+library(bookworm)
 options("geonamesUsername")
 geocode(
   db=conf("bookwormName")
